@@ -1,0 +1,4552 @@
+{
+  "paragraphs": [
+    {
+      "id": "med_001",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Effective communication is the cornerstone of successful leadership in any modern organization today.",
+      "words": [
+        {
+          "original": "Effective",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "c"
+        },
+        {
+          "original": "communication",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "i"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "cornerstone",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "r"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "successful",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "leadership",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "any",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "modern",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "d"
+        },
+        {
+          "original": "organization",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "i"
+        },
+        {
+          "original": "today.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "d"
+        }
+      ]
+    },
+    {
+      "id": "med_002",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "The ancient architecture of the cathedral displayed intricate designs and remarkable craftsmanship throughout.",
+      "words": [
+        {
+          "original": "The",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "ancient",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "i"
+        },
+        {
+          "original": "architecture",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "t"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "cathedral",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "displayed",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "l"
+        },
+        {
+          "original": "intricate",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "i"
+        },
+        {
+          "original": "designs",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "i"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "remarkable",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "r"
+        },
+        {
+          "original": "craftsmanship",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "m"
+        },
+        {
+          "original": "throughout.",
+          "length": 11,
+          "focal_index": 4,
+          "focal_char": "u"
+        }
+      ]
+    },
+    {
+      "id": "med_003",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Sustainable energy sources like wind and solar power are essential for our future environment.",
+      "words": [
+        {
+          "original": "Sustainable",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "i"
+        },
+        {
+          "original": "energy",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "sources",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "r"
+        },
+        {
+          "original": "like",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "wind",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "solar",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "power",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "w"
+        },
+        {
+          "original": "are",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "essential",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "n"
+        },
+        {
+          "original": "for",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "our",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "u"
+        },
+        {
+          "original": "future",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "environment.",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "o"
+        }
+      ]
+    },
+    {
+      "id": "med_004",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Artificial intelligence is rapidly transforming the way we process information and solve complex problems.",
+      "words": [
+        {
+          "original": "Artificial",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "f"
+        },
+        {
+          "original": "intelligence",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "l"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "rapidly",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "i"
+        },
+        {
+          "original": "transforming",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "f"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "way",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "we",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "w"
+        },
+        {
+          "original": "process",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "c"
+        },
+        {
+          "original": "information",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "m"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "solve",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "complex",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "p"
+        },
+        {
+          "original": "problems.",
+          "length": 9,
+          "focal_index": 3,
+          "focal_char": "b"
+        }
+      ]
+    },
+    {
+      "id": "med_005",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Regular physical activity improves cardiovascular health and significantly reduces stress levels in adults.",
+      "words": [
+        {
+          "original": "Regular",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "u"
+        },
+        {
+          "original": "physical",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "s"
+        },
+        {
+          "original": "activity",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "i"
+        },
+        {
+          "original": "improves",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "r"
+        },
+        {
+          "original": "cardiovascular",
+          "length": 14,
+          "focal_index": 6,
+          "focal_char": "v"
+        },
+        {
+          "original": "health",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "significantly",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "i"
+        },
+        {
+          "original": "reduces",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "u"
+        },
+        {
+          "original": "stress",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "r"
+        },
+        {
+          "original": "levels",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "v"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "adults.",
+          "length": 7,
+          "focal_index": 2,
+          "focal_char": "u"
+        }
+      ]
+    },
+    {
+      "id": "med_006",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "The symphony orchestra performed a magnificent composition that captivated the entire audience last night.",
+      "words": [
+        {
+          "original": "The",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "symphony",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "p"
+        },
+        {
+          "original": "orchestra",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "performed",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "o"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "magnificent",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "f"
+        },
+        {
+          "original": "composition",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "s"
+        },
+        {
+          "original": "that",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "captivated",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "entire",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "audience",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "i"
+        },
+        {
+          "original": "last",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "night.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "g"
+        }
+      ]
+    },
+    {
+      "id": "med_007",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Financial independence requires disciplined saving habits and a solid understanding of investment strategies.",
+      "words": [
+        {
+          "original": "Financial",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "n"
+        },
+        {
+          "original": "independence",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "e"
+        },
+        {
+          "original": "requires",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "u"
+        },
+        {
+          "original": "disciplined",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "p"
+        },
+        {
+          "original": "saving",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "v"
+        },
+        {
+          "original": "habits",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "b"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "solid",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "understanding",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "t"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "investment",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "s"
+        },
+        {
+          "original": "strategies.",
+          "length": 11,
+          "focal_index": 4,
+          "focal_char": "t"
+        }
+      ]
+    },
+    {
+      "id": "med_008",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Collaboration between different departments often leads to innovative solutions and better productivity results.",
+      "words": [
+        {
+          "original": "Collaboration",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "o"
+        },
+        {
+          "original": "between",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "w"
+        },
+        {
+          "original": "different",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "departments",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "t"
+        },
+        {
+          "original": "often",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "leads",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "innovative",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "v"
+        },
+        {
+          "original": "solutions",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "t"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "better",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "productivity",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "c"
+        },
+        {
+          "original": "results.",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "u"
+        }
+      ]
+    },
+    {
+      "id": "med_009",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "The atmosphere of the planet protects living organisms from harmful solar radiation every moment.",
+      "words": [
+        {
+          "original": "The",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "atmosphere",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "s"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "planet",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "protects",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "t"
+        },
+        {
+          "original": "living",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "v"
+        },
+        {
+          "original": "organisms",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "n"
+        },
+        {
+          "original": "from",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "harmful",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "m"
+        },
+        {
+          "original": "solar",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "radiation",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "a"
+        },
+        {
+          "original": "every",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "moment.",
+          "length": 7,
+          "focal_index": 2,
+          "focal_char": "m"
+        }
+      ]
+    },
+    {
+      "id": "med_010",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Understanding the psychology behind human behavior can help us build stronger social relationships.",
+      "words": [
+        {
+          "original": "Understanding",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "t"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "psychology",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "h"
+        },
+        {
+          "original": "behind",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "h"
+        },
+        {
+          "original": "human",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "m"
+        },
+        {
+          "original": "behavior",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "a"
+        },
+        {
+          "original": "can",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "help",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "us",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "u"
+        },
+        {
+          "original": "build",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "stronger",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "o"
+        },
+        {
+          "original": "social",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "c"
+        },
+        {
+          "original": "relationships.",
+          "length": 14,
+          "focal_index": 6,
+          "focal_char": "o"
+        }
+      ]
+    },
+    {
+      "id": "med_011",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Biodiversity is crucial for maintaining the balance of ecosystems and supporting life on earth.",
+      "words": [
+        {
+          "original": "Biodiversity",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "v"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "crucial",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "c"
+        },
+        {
+          "original": "for",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "maintaining",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "a"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "balance",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "a"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "ecosystems",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "y"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "supporting",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "o"
+        },
+        {
+          "original": "life",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "on",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "earth.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "r"
+        }
+      ]
+    },
+    {
+      "id": "med_012",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Learning a second language enhances cognitive abilities and improves memory retention over time.",
+      "words": [
+        {
+          "original": "Learning",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "r"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "second",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "c"
+        },
+        {
+          "original": "language",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "g"
+        },
+        {
+          "original": "enhances",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "a"
+        },
+        {
+          "original": "cognitive",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "i"
+        },
+        {
+          "original": "abilities",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "i"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "improves",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "r"
+        },
+        {
+          "original": "memory",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "m"
+        },
+        {
+          "original": "retention",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "n"
+        },
+        {
+          "original": "over",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "v"
+        },
+        {
+          "original": "time.",
+          "length": 5,
+          "focal_index": 1,
+          "focal_char": "i"
+        }
+      ]
+    },
+    {
+      "id": "med_013",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Strategic planning allows companies to anticipate market changes and adapt their operations accordingly.",
+      "words": [
+        {
+          "original": "Strategic",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "t"
+        },
+        {
+          "original": "planning",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "allows",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "companies",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "a"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "anticipate",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "c"
+        },
+        {
+          "original": "market",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "r"
+        },
+        {
+          "original": "changes",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "adapt",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "their",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "operations",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "a"
+        },
+        {
+          "original": "accordingly.",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "d"
+        }
+      ]
+    },
+    {
+      "id": "med_014",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "The majestic mountain range was covered in a thick blanket of pristine white snow.",
+      "words": [
+        {
+          "original": "The",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "majestic",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "e"
+        },
+        {
+          "original": "mountain",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "range",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "n"
+        },
+        {
+          "original": "was",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "covered",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "e"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "thick",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "blanket",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "pristine",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "s"
+        },
+        {
+          "original": "white",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "snow.",
+          "length": 5,
+          "focal_index": 1,
+          "focal_char": "n"
+        }
+      ]
+    },
+    {
+      "id": "med_015",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Digital transformation is reshaping industries by automating routine tasks and improving efficiency rates.",
+      "words": [
+        {
+          "original": "Digital",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "i"
+        },
+        {
+          "original": "transformation",
+          "length": 14,
+          "focal_index": 6,
+          "focal_char": "o"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "reshaping",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "a"
+        },
+        {
+          "original": "industries",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "s"
+        },
+        {
+          "original": "by",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "b"
+        },
+        {
+          "original": "automating",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "m"
+        },
+        {
+          "original": "routine",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "t"
+        },
+        {
+          "original": "tasks",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "s"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "improving",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "o"
+        },
+        {
+          "original": "efficiency",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "c"
+        },
+        {
+          "original": "rates.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "t"
+        }
+      ]
+    },
+    {
+      "id": "med_016",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Emotional intelligence is the ability to recognize and manage your own feelings and others.",
+      "words": [
+        {
+          "original": "Emotional",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "i"
+        },
+        {
+          "original": "intelligence",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "l"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "ability",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "l"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "recognize",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "g"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "manage",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "n"
+        },
+        {
+          "original": "your",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "own",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "w"
+        },
+        {
+          "original": "feelings",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "l"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "others.",
+          "length": 7,
+          "focal_index": 2,
+          "focal_char": "h"
+        }
+      ]
+    },
+    {
+      "id": "med_017",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Scientific research continues to uncover new mysteries about the vast universe we inhabit.",
+      "words": [
+        {
+          "original": "Scientific",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "n"
+        },
+        {
+          "original": "research",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "e"
+        },
+        {
+          "original": "continues",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "i"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "uncover",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "o"
+        },
+        {
+          "original": "new",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "mysteries",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "about",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "vast",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "universe",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "v"
+        },
+        {
+          "original": "we",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "w"
+        },
+        {
+          "original": "inhabit.",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "a"
+        }
+      ]
+    },
+    {
+      "id": "med_018",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Constructive feedback is a powerful tool for personal growth and professional development in careers.",
+      "words": [
+        {
+          "original": "Constructive",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "r"
+        },
+        {
+          "original": "feedback",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "d"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "powerful",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "e"
+        },
+        {
+          "original": "tool",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "for",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "personal",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "s"
+        },
+        {
+          "original": "growth",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "professional",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "s"
+        },
+        {
+          "original": "development",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "o"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "careers.",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "e"
+        }
+      ]
+    },
+    {
+      "id": "med_019",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "The global economy is interconnected through complex trade networks and international financial markets.",
+      "words": [
+        {
+          "original": "The",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "global",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "economy",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "interconnected",
+          "length": 14,
+          "focal_index": 6,
+          "focal_char": "o"
+        },
+        {
+          "original": "through",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "o"
+        },
+        {
+          "original": "complex",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "p"
+        },
+        {
+          "original": "trade",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "networks",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "w"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "international",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "a"
+        },
+        {
+          "original": "financial",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "n"
+        },
+        {
+          "original": "markets.",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "k"
+        }
+      ]
+    },
+    {
+      "id": "med_020",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Urban development projects must consider the environmental impact on the surrounding natural habitats.",
+      "words": [
+        {
+          "original": "Urban",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "b"
+        },
+        {
+          "original": "development",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "o"
+        },
+        {
+          "original": "projects",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "j"
+        },
+        {
+          "original": "must",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "u"
+        },
+        {
+          "original": "consider",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "s"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "environmental",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "n"
+        },
+        {
+          "original": "impact",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "p"
+        },
+        {
+          "original": "on",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "surrounding",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "u"
+        },
+        {
+          "original": "natural",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "u"
+        },
+        {
+          "original": "habitats.",
+          "length": 9,
+          "focal_index": 3,
+          "focal_char": "i"
+        }
+      ]
+    },
+    {
+      "id": "med_021",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Time management skills are necessary to balance work responsibilities with personal leisure activities.",
+      "words": [
+        {
+          "original": "Time",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "management",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "g"
+        },
+        {
+          "original": "skills",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "are",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "necessary",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "s"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "balance",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "a"
+        },
+        {
+          "original": "work",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "responsibilities",
+          "length": 16,
+          "focal_index": 7,
+          "focal_char": "i"
+        },
+        {
+          "original": "with",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "personal",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "s"
+        },
+        {
+          "original": "leisure",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "s"
+        },
+        {
+          "original": "activities.",
+          "length": 11,
+          "focal_index": 4,
+          "focal_char": "v"
+        }
+      ]
+    },
+    {
+      "id": "med_022",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Creative thinking involves looking at problems from different perspectives to find unique solutions.",
+      "words": [
+        {
+          "original": "Creative",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "a"
+        },
+        {
+          "original": "thinking",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "involves",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "o"
+        },
+        {
+          "original": "looking",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "k"
+        },
+        {
+          "original": "at",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "problems",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "b"
+        },
+        {
+          "original": "from",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "different",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "perspectives",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "e"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "find",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "unique",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "solutions.",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "t"
+        }
+      ]
+    },
+    {
+      "id": "med_023",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 15,
+      "full_text": "The gravitational pull of the moon is primarily responsible for the tides in our oceans.",
+      "words": [
+        {
+          "original": "The",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "gravitational",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "a"
+        },
+        {
+          "original": "pull",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "u"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "moon",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "primarily",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "a"
+        },
+        {
+          "original": "responsible",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "n"
+        },
+        {
+          "original": "for",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "tides",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "d"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "our",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "u"
+        },
+        {
+          "original": "oceans.",
+          "length": 7,
+          "focal_index": 2,
+          "focal_char": "e"
+        }
+      ]
+    },
+    {
+      "id": "med_024",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Educational institutions play a vital role in shaping the minds of the next generation.",
+      "words": [
+        {
+          "original": "Educational",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "t"
+        },
+        {
+          "original": "institutions",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "t"
+        },
+        {
+          "original": "play",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "l"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "vital",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "role",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "shaping",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "p"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "minds",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "n"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "next",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "generation.",
+          "length": 11,
+          "focal_index": 4,
+          "focal_char": "r"
+        }
+      ]
+    },
+    {
+      "id": "med_025",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Advancements in medical technology have significantly increased the average life expectancy worldwide today.",
+      "words": [
+        {
+          "original": "Advancements",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "c"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "medical",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "i"
+        },
+        {
+          "original": "technology",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "n"
+        },
+        {
+          "original": "have",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "significantly",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "i"
+        },
+        {
+          "original": "increased",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "average",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "r"
+        },
+        {
+          "original": "life",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "expectancy",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "c"
+        },
+        {
+          "original": "worldwide",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "d"
+        },
+        {
+          "original": "today.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "d"
+        }
+      ]
+    },
+    {
+      "id": "med_026",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 15,
+      "full_text": "A balanced diet containing vitamins and minerals is fundamental for maintaining a strong immune system.",
+      "words": [
+        {
+          "original": "A",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "balanced",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "a"
+        },
+        {
+          "original": "diet",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "containing",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "a"
+        },
+        {
+          "original": "vitamins",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "a"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "minerals",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "e"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "fundamental",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "m"
+        },
+        {
+          "original": "for",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "maintaining",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "a"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "strong",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "r"
+        },
+        {
+          "original": "immune",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "m"
+        },
+        {
+          "original": "system.",
+          "length": 7,
+          "focal_index": 2,
+          "focal_char": "s"
+        }
+      ]
+    },
+    {
+      "id": "med_027",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Exploring the deep ocean reveals fascinating creatures that have adapted to extreme pressure conditions.",
+      "words": [
+        {
+          "original": "Exploring",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "deep",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "ocean",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "reveals",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "e"
+        },
+        {
+          "original": "fascinating",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "n"
+        },
+        {
+          "original": "creatures",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "t"
+        },
+        {
+          "original": "that",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "have",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "adapted",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "p"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "extreme",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "r"
+        },
+        {
+          "original": "pressure",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "s"
+        },
+        {
+          "original": "conditions.",
+          "length": 11,
+          "focal_index": 4,
+          "focal_char": "i"
+        }
+      ]
+    },
+    {
+      "id": "med_028",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Writing code requires logic and attention to detail to ensure the program runs smoothly.",
+      "words": [
+        {
+          "original": "Writing",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "t"
+        },
+        {
+          "original": "code",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "requires",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "u"
+        },
+        {
+          "original": "logic",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "g"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "attention",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "n"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "detail",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "ensure",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "s"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "program",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "g"
+        },
+        {
+          "original": "runs",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "u"
+        },
+        {
+          "original": "smoothly.",
+          "length": 9,
+          "focal_index": 3,
+          "focal_char": "o"
+        }
+      ]
+    },
+    {
+      "id": "med_029",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Historical artifacts provide valuable insights into the cultures and civilizations of the distant past.",
+      "words": [
+        {
+          "original": "Historical",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "o"
+        },
+        {
+          "original": "artifacts",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "f"
+        },
+        {
+          "original": "provide",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "v"
+        },
+        {
+          "original": "valuable",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "u"
+        },
+        {
+          "original": "insights",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "i"
+        },
+        {
+          "original": "into",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "cultures",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "t"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "civilizations",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "z"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "distant",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "t"
+        },
+        {
+          "original": "past.",
+          "length": 5,
+          "focal_index": 1,
+          "focal_char": "a"
+        }
+      ]
+    },
+    {
+      "id": "med_030",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Renewable resources are becoming more affordable and accessible to households around the globe.",
+      "words": [
+        {
+          "original": "Renewable",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "w"
+        },
+        {
+          "original": "resources",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "u"
+        },
+        {
+          "original": "are",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "becoming",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "o"
+        },
+        {
+          "original": "more",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "affordable",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "r"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "accessible",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "s"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "households",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "around",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "globe.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "o"
+        }
+      ]
+    },
+    {
+      "id": "med_031",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Public speaking is a skill that can be mastered through consistent practice and preparation.",
+      "words": [
+        {
+          "original": "Public",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "b"
+        },
+        {
+          "original": "speaking",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "a"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "skill",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "that",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "can",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "be",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "b"
+        },
+        {
+          "original": "mastered",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "t"
+        },
+        {
+          "original": "through",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "o"
+        },
+        {
+          "original": "consistent",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "i"
+        },
+        {
+          "original": "practice",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "c"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "preparation.",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "r"
+        }
+      ]
+    },
+    {
+      "id": "med_032",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "The intricate ecosystem of a rainforest supports thousands of unique plant and animal species.",
+      "words": [
+        {
+          "original": "The",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "intricate",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "i"
+        },
+        {
+          "original": "ecosystem",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "y"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "rainforest",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "f"
+        },
+        {
+          "original": "supports",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "p"
+        },
+        {
+          "original": "thousands",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "s"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "unique",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "plant",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "animal",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "species.",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "c"
+        }
+      ]
+    },
+    {
+      "id": "med_033",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Psychological resilience helps individuals recover quickly from setbacks and adapt to challenging situations.",
+      "words": [
+        {
+          "original": "Psychological",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "l"
+        },
+        {
+          "original": "resilience",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "l"
+        },
+        {
+          "original": "helps",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "individuals",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "i"
+        },
+        {
+          "original": "recover",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "o"
+        },
+        {
+          "original": "quickly",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "c"
+        },
+        {
+          "original": "from",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "setbacks",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "b"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "adapt",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "challenging",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "e"
+        },
+        {
+          "original": "situations.",
+          "length": 11,
+          "focal_index": 4,
+          "focal_char": "a"
+        }
+      ]
+    },
+    {
+      "id": "med_034",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Remote work opportunities have changed the traditional office landscape and offered more flexibility.",
+      "words": [
+        {
+          "original": "Remote",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "m"
+        },
+        {
+          "original": "work",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "opportunities",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "u"
+        },
+        {
+          "original": "have",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "changed",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "traditional",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "t"
+        },
+        {
+          "original": "office",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "f"
+        },
+        {
+          "original": "landscape",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "s"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "offered",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "e"
+        },
+        {
+          "original": "more",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "flexibility.",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "b"
+        }
+      ]
+    },
+    {
+      "id": "med_035",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 15,
+      "full_text": "Photosynthesis is the process by which green plants use sunlight to synthesize nutrients from water.",
+      "words": [
+        {
+          "original": "Photosynthesis",
+          "length": 14,
+          "focal_index": 6,
+          "focal_char": "y"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "process",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "c"
+        },
+        {
+          "original": "by",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "b"
+        },
+        {
+          "original": "which",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "green",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "plants",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "use",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "s"
+        },
+        {
+          "original": "sunlight",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "l"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "synthesize",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "h"
+        },
+        {
+          "original": "nutrients",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "i"
+        },
+        {
+          "original": "from",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "water.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "t"
+        }
+      ]
+    },
+    {
+      "id": "med_036",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Critical thinking enables us to analyze arguments and distinguish between fact and opinion clearly.",
+      "words": [
+        {
+          "original": "Critical",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "t"
+        },
+        {
+          "original": "thinking",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "enables",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "b"
+        },
+        {
+          "original": "us",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "u"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "analyze",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "l"
+        },
+        {
+          "original": "arguments",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "m"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "distinguish",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "n"
+        },
+        {
+          "original": "between",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "w"
+        },
+        {
+          "original": "fact",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "opinion",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "clearly.",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "a"
+        }
+      ]
+    },
+    {
+      "id": "med_037",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Marketing strategies focus on understanding consumer behavior to promote products and services effectively.",
+      "words": [
+        {
+          "original": "Marketing",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "strategies",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "t"
+        },
+        {
+          "original": "focus",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "c"
+        },
+        {
+          "original": "on",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "understanding",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "t"
+        },
+        {
+          "original": "consumer",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "s"
+        },
+        {
+          "original": "behavior",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "a"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "promote",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "m"
+        },
+        {
+          "original": "products",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "d"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "services",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "v"
+        },
+        {
+          "original": "effectively.",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "t"
+        }
+      ]
+    },
+    {
+      "id": "med_038",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "The phenomenon of globalization has brought different cultures closer together than ever before.",
+      "words": [
+        {
+          "original": "The",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "phenomenon",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "o"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "globalization",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "i"
+        },
+        {
+          "original": "has",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "brought",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "u"
+        },
+        {
+          "original": "different",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "cultures",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "t"
+        },
+        {
+          "original": "closer",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "together",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "e"
+        },
+        {
+          "original": "than",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "ever",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "v"
+        },
+        {
+          "original": "before.",
+          "length": 7,
+          "focal_index": 2,
+          "focal_char": "f"
+        }
+      ]
+    },
+    {
+      "id": "med_039",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 15,
+      "full_text": "Maintaining a positive attitude can have a beneficial influence on your overall mental well being.",
+      "words": [
+        {
+          "original": "Maintaining",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "a"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "positive",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "i"
+        },
+        {
+          "original": "attitude",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "i"
+        },
+        {
+          "original": "can",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "have",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "beneficial",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "f"
+        },
+        {
+          "original": "influence",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "u"
+        },
+        {
+          "original": "on",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "your",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "overall",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "r"
+        },
+        {
+          "original": "mental",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "n"
+        },
+        {
+          "original": "well",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "being.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "i"
+        }
+      ]
+    },
+    {
+      "id": "med_040",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Sophisticated algorithms determine the content you see on social media feeds every single day.",
+      "words": [
+        {
+          "original": "Sophisticated",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "t"
+        },
+        {
+          "original": "algorithms",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "r"
+        },
+        {
+          "original": "determine",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "r"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "content",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "t"
+        },
+        {
+          "original": "you",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "see",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "on",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "social",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "c"
+        },
+        {
+          "original": "media",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "d"
+        },
+        {
+          "original": "feeds",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "every",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "single",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "n"
+        },
+        {
+          "original": "day.",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        }
+      ]
+    },
+    {
+      "id": "med_041",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Volcanic eruptions can release massive amounts of ash and gas into the atmosphere suddenly.",
+      "words": [
+        {
+          "original": "Volcanic",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "c"
+        },
+        {
+          "original": "eruptions",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "t"
+        },
+        {
+          "original": "can",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "release",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "e"
+        },
+        {
+          "original": "massive",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "s"
+        },
+        {
+          "original": "amounts",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "u"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "ash",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "s"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "gas",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "into",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "atmosphere",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "s"
+        },
+        {
+          "original": "suddenly.",
+          "length": 9,
+          "focal_index": 3,
+          "focal_char": "d"
+        }
+      ]
+    },
+    {
+      "id": "med_042",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 15,
+      "full_text": "Leadership is not just about giving orders but inspiring others to achieve their best potential.",
+      "words": [
+        {
+          "original": "Leadership",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "not",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "just",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "u"
+        },
+        {
+          "original": "about",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "giving",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "v"
+        },
+        {
+          "original": "orders",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "d"
+        },
+        {
+          "original": "but",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "u"
+        },
+        {
+          "original": "inspiring",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "i"
+        },
+        {
+          "original": "others",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "h"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "achieve",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "i"
+        },
+        {
+          "original": "their",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "best",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "potential.",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "n"
+        }
+      ]
+    },
+    {
+      "id": "med_043",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Investing in education is one of the most effective ways to reduce poverty globally.",
+      "words": [
+        {
+          "original": "Investing",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "s"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "education",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "a"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "one",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "most",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "effective",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "c"
+        },
+        {
+          "original": "ways",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "reduce",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "d"
+        },
+        {
+          "original": "poverty",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "e"
+        },
+        {
+          "original": "globally.",
+          "length": 9,
+          "focal_index": 3,
+          "focal_char": "b"
+        }
+      ]
+    },
+    {
+      "id": "med_044",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Aerobic exercise increases oxygen flow to the brain and helps improve concentration and focus.",
+      "words": [
+        {
+          "original": "Aerobic",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "o"
+        },
+        {
+          "original": "exercise",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "r"
+        },
+        {
+          "original": "increases",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "oxygen",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "y"
+        },
+        {
+          "original": "flow",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "l"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "brain",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "helps",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "improve",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "r"
+        },
+        {
+          "original": "concentration",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "t"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "focus.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "c"
+        }
+      ]
+    },
+    {
+      "id": "med_045",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "The rapid expansion of cities often leads to challenges in transportation and housing infrastructure.",
+      "words": [
+        {
+          "original": "The",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "rapid",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "p"
+        },
+        {
+          "original": "expansion",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "n"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "cities",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "often",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "leads",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "challenges",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "l"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "transportation",
+          "length": 14,
+          "focal_index": 6,
+          "focal_char": "o"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "housing",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "s"
+        },
+        {
+          "original": "infrastructure.",
+          "length": 15,
+          "focal_index": 6,
+          "focal_char": "t"
+        }
+      ]
+    },
+    {
+      "id": "med_046",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Diplomatic relations between nations are maintained through negotiation and mutual understanding of interests.",
+      "words": [
+        {
+          "original": "Diplomatic",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "o"
+        },
+        {
+          "original": "relations",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "t"
+        },
+        {
+          "original": "between",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "w"
+        },
+        {
+          "original": "nations",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "i"
+        },
+        {
+          "original": "are",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "maintained",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "t"
+        },
+        {
+          "original": "through",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "o"
+        },
+        {
+          "original": "negotiation",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "i"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "mutual",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "understanding",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "t"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "interests.",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "r"
+        }
+      ]
+    },
+    {
+      "id": "med_047",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Curiosity is the driving force behind scientific discovery and the exploration of the unknown.",
+      "words": [
+        {
+          "original": "Curiosity",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "o"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "driving",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "v"
+        },
+        {
+          "original": "force",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "r"
+        },
+        {
+          "original": "behind",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "h"
+        },
+        {
+          "original": "scientific",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "n"
+        },
+        {
+          "original": "discovery",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "o"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "exploration",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "r"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "unknown.",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "n"
+        }
+      ]
+    },
+    {
+      "id": "med_048",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 13,
+      "full_text": "Preserving cultural heritage ensures that future generations can appreciate their history and traditions.",
+      "words": [
+        {
+          "original": "Preserving",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "cultural",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "t"
+        },
+        {
+          "original": "heritage",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "i"
+        },
+        {
+          "original": "ensures",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "u"
+        },
+        {
+          "original": "that",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "future",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "generations",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "a"
+        },
+        {
+          "original": "can",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "appreciate",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "their",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "history",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "t"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "traditions.",
+          "length": 11,
+          "focal_index": 4,
+          "focal_char": "i"
+        }
+      ]
+    },
+    {
+      "id": "med_049",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Mathematics provides a universal language for describing patterns and structures in the real world.",
+      "words": [
+        {
+          "original": "Mathematics",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "m"
+        },
+        {
+          "original": "provides",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "v"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "universal",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "language",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "g"
+        },
+        {
+          "original": "for",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "describing",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "r"
+        },
+        {
+          "original": "patterns",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "t"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "structures",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "c"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "real",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "world.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "r"
+        }
+      ]
+    },
+    {
+      "id": "med_050",
+      "category": "General",
+      "difficulty": "Medium",
+      "total_word_count": 14,
+      "full_text": "Automation in manufacturing has increased production speed but also changed the job market landscape.",
+      "words": [
+        {
+          "original": "Automation",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "m"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "manufacturing",
+          "length": 13,
+          "focal_index": 6,
+          "focal_char": "c"
+        },
+        {
+          "original": "has",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "increased",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "production",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "u"
+        },
+        {
+          "original": "speed",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "but",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "u"
+        },
+        {
+          "original": "also",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "l"
+        },
+        {
+          "original": "changed",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "job",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "market",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "r"
+        },
+        {
+          "original": "landscape.",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "s"
+        }
+      ]
+    }
+  ]
+}

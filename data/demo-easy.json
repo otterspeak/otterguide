@@ -1,0 +1,4018 @@
+{
+  "paragraphs": [
+    {
+      "id": "easy_001",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 13,
+      "full_text": "The sun rises in the east and sets in the west every day.",
+      "words": [
+        {
+          "original": "The",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "sun",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "u"
+        },
+        {
+          "original": "rises",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "s"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "east",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "sets",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "west",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "every",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "day.",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        }
+      ]
+    },
+    {
+      "id": "easy_002",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Fresh apples and oranges are good for your health and taste sweet.",
+      "words": [
+        {
+          "original": "Fresh",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "apples",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "p"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "oranges",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "are",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "good",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "for",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "your",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "health",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "taste",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "s"
+        },
+        {
+          "original": "sweet.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "e"
+        }
+      ]
+    },
+    {
+      "id": "easy_003",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Reading books every day helps you learn new words and ideas fast.",
+      "words": [
+        {
+          "original": "Reading",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "d"
+        },
+        {
+          "original": "books",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "every",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "day",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "helps",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "you",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "learn",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "new",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "words",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "r"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "ideas",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "fast.",
+          "length": 5,
+          "focal_index": 1,
+          "focal_char": "a"
+        }
+      ]
+    },
+    {
+      "id": "easy_004",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Blue birds fly high in the clear sky above the green trees.",
+      "words": [
+        {
+          "original": "Blue",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "l"
+        },
+        {
+          "original": "birds",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "r"
+        },
+        {
+          "original": "fly",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "l"
+        },
+        {
+          "original": "high",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "clear",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "sky",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "k"
+        },
+        {
+          "original": "above",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "green",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "trees.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "e"
+        }
+      ]
+    },
+    {
+      "id": "easy_005",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Always drink plenty of water to stay hydrated during the hot summer.",
+      "words": [
+        {
+          "original": "Always",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "w"
+        },
+        {
+          "original": "drink",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "plenty",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "water",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "stay",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "t"
+        },
+        {
+          "original": "hydrated",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "r"
+        },
+        {
+          "original": "during",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "r"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "hot",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "summer.",
+          "length": 7,
+          "focal_index": 2,
+          "focal_char": "m"
+        }
+      ]
+    },
+    {
+      "id": "easy_006",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Walking in the park is a great way to relax and breathe.",
+      "words": [
+        {
+          "original": "Walking",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "k"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "park",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "great",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "way",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "relax",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "breathe.",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "a"
+        }
+      ]
+    },
+    {
+      "id": "easy_007",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Cats love to sleep in warm places like near a sunny window.",
+      "words": [
+        {
+          "original": "Cats",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "love",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "sleep",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "warm",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "places",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "like",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "near",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "sunny",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "n"
+        },
+        {
+          "original": "window.",
+          "length": 7,
+          "focal_index": 2,
+          "focal_char": "n"
+        }
+      ]
+    },
+    {
+      "id": "easy_008",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Music makes people feel happy and want to dance around the room.",
+      "words": [
+        {
+          "original": "Music",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "s"
+        },
+        {
+          "original": "makes",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "k"
+        },
+        {
+          "original": "people",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "feel",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "happy",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "p"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "want",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "dance",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "n"
+        },
+        {
+          "original": "around",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "room.",
+          "length": 5,
+          "focal_index": 1,
+          "focal_char": "o"
+        }
+      ]
+    },
+    {
+      "id": "easy_009",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Learning to code is fun and opens many doors for your future.",
+      "words": [
+        {
+          "original": "Learning",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "r"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "code",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "fun",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "u"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "opens",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "many",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "doors",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "for",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "your",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "future.",
+          "length": 7,
+          "focal_index": 2,
+          "focal_char": "t"
+        }
+      ]
+    },
+    {
+      "id": "easy_010",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 13,
+      "full_text": "Please remember to brush your teeth twice a day for a bright smile.",
+      "words": [
+        {
+          "original": "Please",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "remember",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "e"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "brush",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "u"
+        },
+        {
+          "original": "your",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "teeth",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "twice",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "day",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "for",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "bright",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "smile.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "i"
+        }
+      ]
+    },
+    {
+      "id": "easy_011",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Golden stars shine bright in the dark night sky far above us.",
+      "words": [
+        {
+          "original": "Golden",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "stars",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "shine",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "bright",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "dark",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "night",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "g"
+        },
+        {
+          "original": "sky",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "k"
+        },
+        {
+          "original": "far",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "above",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "us.",
+          "length": 3,
+          "focal_index": 0,
+          "focal_char": "u"
+        }
+      ]
+    },
+    {
+      "id": "easy_012",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Running is good exercise for your heart and strengthens your leg muscles.",
+      "words": [
+        {
+          "original": "Running",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "good",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "exercise",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "r"
+        },
+        {
+          "original": "for",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "your",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "heart",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "strengthens",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "g"
+        },
+        {
+          "original": "your",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "leg",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "muscles.",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "c"
+        }
+      ]
+    },
+    {
+      "id": "easy_013",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Cooking dinner with friends is a wonderful way to spend the evening.",
+      "words": [
+        {
+          "original": "Cooking",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "k"
+        },
+        {
+          "original": "dinner",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "n"
+        },
+        {
+          "original": "with",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "friends",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "e"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "wonderful",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "way",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "spend",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "evening.",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "n"
+        }
+      ]
+    },
+    {
+      "id": "easy_014",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Computers help us solve problems and connect with people around the world.",
+      "words": [
+        {
+          "original": "Computers",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "u"
+        },
+        {
+          "original": "help",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "us",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "u"
+        },
+        {
+          "original": "solve",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "problems",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "b"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "connect",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "with",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "people",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "around",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "world.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "r"
+        }
+      ]
+    },
+    {
+      "id": "easy_015",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "My favorite color is blue because it reminds me of the ocean.",
+      "words": [
+        {
+          "original": "My",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "m"
+        },
+        {
+          "original": "favorite",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "o"
+        },
+        {
+          "original": "color",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "blue",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "l"
+        },
+        {
+          "original": "because",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "a"
+        },
+        {
+          "original": "it",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "reminds",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "i"
+        },
+        {
+          "original": "me",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "m"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "ocean.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "e"
+        }
+      ]
+    },
+    {
+      "id": "easy_016",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Soccer is a popular sport played by millions of people every year.",
+      "words": [
+        {
+          "original": "Soccer",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "c"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "popular",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "u"
+        },
+        {
+          "original": "sport",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "played",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "by",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "b"
+        },
+        {
+          "original": "millions",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "l"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "people",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "every",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "year.",
+          "length": 5,
+          "focal_index": 1,
+          "focal_char": "e"
+        }
+      ]
+    },
+    {
+      "id": "easy_017",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 11,
+      "full_text": "Always look both ways before you cross the busy street safely.",
+      "words": [
+        {
+          "original": "Always",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "w"
+        },
+        {
+          "original": "look",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "both",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "ways",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "before",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "f"
+        },
+        {
+          "original": "you",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "cross",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "busy",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "u"
+        },
+        {
+          "original": "street",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "r"
+        },
+        {
+          "original": "safely.",
+          "length": 7,
+          "focal_index": 2,
+          "focal_char": "f"
+        }
+      ]
+    },
+    {
+      "id": "easy_018",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Green leaves turn yellow and red when the autumn season arrives finally.",
+      "words": [
+        {
+          "original": "Green",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "leaves",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "turn",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "u"
+        },
+        {
+          "original": "yellow",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "red",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "when",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "autumn",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "season",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "arrives",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "i"
+        },
+        {
+          "original": "finally.",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "a"
+        }
+      ]
+    },
+    {
+      "id": "easy_019",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Hot coffee in the morning helps me wake up and feel ready.",
+      "words": [
+        {
+          "original": "Hot",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "coffee",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "f"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "morning",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "helps",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "me",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "m"
+        },
+        {
+          "original": "wake",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "up",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "u"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "feel",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "ready.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "a"
+        }
+      ]
+    },
+    {
+      "id": "easy_020",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Baking cookies fills the house with a delicious and sweet smell today.",
+      "words": [
+        {
+          "original": "Baking",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "k"
+        },
+        {
+          "original": "cookies",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "k"
+        },
+        {
+          "original": "fills",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "house",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "u"
+        },
+        {
+          "original": "with",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "delicious",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "c"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "sweet",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "smell",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "today.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "d"
+        }
+      ]
+    },
+    {
+      "id": "easy_021",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Rain water helps the flowers grow tall and bloom in the spring.",
+      "words": [
+        {
+          "original": "Rain",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "water",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "helps",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "flowers",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "w"
+        },
+        {
+          "original": "grow",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "tall",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "bloom",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "spring.",
+          "length": 7,
+          "focal_index": 2,
+          "focal_char": "r"
+        }
+      ]
+    },
+    {
+      "id": "easy_022",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Time flies when you are having fun with your best friends outside.",
+      "words": [
+        {
+          "original": "Time",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "flies",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "when",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "you",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "are",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "having",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "v"
+        },
+        {
+          "original": "fun",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "u"
+        },
+        {
+          "original": "with",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "your",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "best",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "friends",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "e"
+        },
+        {
+          "original": "outside.",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "s"
+        }
+      ]
+    },
+    {
+      "id": "easy_023",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Practice makes perfect if you want to master a new skill completely.",
+      "words": [
+        {
+          "original": "Practice",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "c"
+        },
+        {
+          "original": "makes",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "k"
+        },
+        {
+          "original": "perfect",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "f"
+        },
+        {
+          "original": "if",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "you",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "want",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "master",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "s"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "new",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "skill",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "completely.",
+          "length": 11,
+          "focal_index": 4,
+          "focal_char": "l"
+        }
+      ]
+    },
+    {
+      "id": "easy_024",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Birds sing beautiful songs early in the morning to wake us up.",
+      "words": [
+        {
+          "original": "Birds",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "r"
+        },
+        {
+          "original": "sing",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "beautiful",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "t"
+        },
+        {
+          "original": "songs",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "n"
+        },
+        {
+          "original": "early",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "r"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "morning",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "wake",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "us",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "u"
+        },
+        {
+          "original": "up.",
+          "length": 3,
+          "focal_index": 0,
+          "focal_char": "u"
+        }
+      ]
+    },
+    {
+      "id": "easy_025",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Wear a warm coat when it snows outside to keep yourself cozy.",
+      "words": [
+        {
+          "original": "Wear",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "warm",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "coat",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "when",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "it",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "snows",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "outside",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "s"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "keep",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "yourself",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "r"
+        },
+        {
+          "original": "cozy.",
+          "length": 5,
+          "focal_index": 1,
+          "focal_char": "o"
+        }
+      ]
+    },
+    {
+      "id": "easy_026",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Writing a journal helps you remember the good moments of your life.",
+      "words": [
+        {
+          "original": "Writing",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "t"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "journal",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "r"
+        },
+        {
+          "original": "helps",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "you",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "remember",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "e"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "good",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "moments",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "e"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "your",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "life.",
+          "length": 5,
+          "focal_index": 1,
+          "focal_char": "i"
+        }
+      ]
+    },
+    {
+      "id": "easy_027",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Clean your room to make space for new things and clear thoughts.",
+      "words": [
+        {
+          "original": "Clean",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "your",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "room",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "make",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "space",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "for",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "new",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "things",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "clear",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "thoughts.",
+          "length": 9,
+          "focal_index": 3,
+          "focal_char": "u"
+        }
+      ]
+    },
+    {
+      "id": "easy_028",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Kindness is free and makes the world a better place for everyone.",
+      "words": [
+        {
+          "original": "Kindness",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "d"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "free",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "makes",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "k"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "world",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "r"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "better",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "place",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "for",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "everyone.",
+          "length": 9,
+          "focal_index": 3,
+          "focal_char": "r"
+        }
+      ]
+    },
+    {
+      "id": "easy_029",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Never give up on your dreams even when things get very hard.",
+      "words": [
+        {
+          "original": "Never",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "v"
+        },
+        {
+          "original": "give",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "up",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "u"
+        },
+        {
+          "original": "on",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "your",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "dreams",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "even",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "v"
+        },
+        {
+          "original": "when",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "things",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "get",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "very",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "hard.",
+          "length": 5,
+          "focal_index": 1,
+          "focal_char": "a"
+        }
+      ]
+    },
+    {
+      "id": "easy_030",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Fish swim deep in the blue ocean and explore the coral reefs.",
+      "words": [
+        {
+          "original": "Fish",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "swim",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "w"
+        },
+        {
+          "original": "deep",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "blue",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "l"
+        },
+        {
+          "original": "ocean",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "explore",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "l"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "coral",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "r"
+        },
+        {
+          "original": "reefs.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "e"
+        }
+      ]
+    },
+    {
+      "id": "easy_031",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Painting on a canvas allows you to express your hidden creative feelings.",
+      "words": [
+        {
+          "original": "Painting",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "on",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "canvas",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "n"
+        },
+        {
+          "original": "allows",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "you",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "express",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "r"
+        },
+        {
+          "original": "your",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "hidden",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "d"
+        },
+        {
+          "original": "creative",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "a"
+        },
+        {
+          "original": "feelings.",
+          "length": 9,
+          "focal_index": 3,
+          "focal_char": "l"
+        }
+      ]
+    },
+    {
+      "id": "easy_032",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Traveling to new places teaches you about different cultures and old history.",
+      "words": [
+        {
+          "original": "Traveling",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "new",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "places",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "teaches",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "c"
+        },
+        {
+          "original": "you",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "about",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "different",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "cultures",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "t"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "old",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "l"
+        },
+        {
+          "original": "history.",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "t"
+        }
+      ]
+    },
+    {
+      "id": "easy_033",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Fresh bread smells amazing when it comes out of the hot oven.",
+      "words": [
+        {
+          "original": "Fresh",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "bread",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "smells",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "amazing",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "z"
+        },
+        {
+          "original": "when",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "it",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "comes",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "m"
+        },
+        {
+          "original": "out",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "u"
+        },
+        {
+          "original": "of",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "hot",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "oven.",
+          "length": 5,
+          "focal_index": 1,
+          "focal_char": "v"
+        }
+      ]
+    },
+    {
+      "id": "easy_034",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Riding a bicycle is faster than walking and fun for all ages.",
+      "words": [
+        {
+          "original": "Riding",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "d"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "bicycle",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "y"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "faster",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "s"
+        },
+        {
+          "original": "than",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "walking",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "k"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "fun",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "u"
+        },
+        {
+          "original": "for",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "all",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "l"
+        },
+        {
+          "original": "ages.",
+          "length": 5,
+          "focal_index": 1,
+          "focal_char": "g"
+        }
+      ]
+    },
+    {
+      "id": "easy_035",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Always say thank you when someone does something nice for you today.",
+      "words": [
+        {
+          "original": "Always",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "w"
+        },
+        {
+          "original": "say",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "thank",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "you",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "when",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "someone",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "e"
+        },
+        {
+          "original": "does",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "something",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "t"
+        },
+        {
+          "original": "nice",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "for",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "you",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "today.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "d"
+        }
+      ]
+    },
+    {
+      "id": "easy_036",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Saving money now helps you buy things you really need later on.",
+      "words": [
+        {
+          "original": "Saving",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "v"
+        },
+        {
+          "original": "money",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "n"
+        },
+        {
+          "original": "now",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "helps",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "you",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "buy",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "u"
+        },
+        {
+          "original": "things",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "you",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "really",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "need",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "later",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "on.",
+          "length": 3,
+          "focal_index": 0,
+          "focal_char": "o"
+        }
+      ]
+    },
+    {
+      "id": "easy_037",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Watching movies is a nice way to relax after a long week.",
+      "words": [
+        {
+          "original": "Watching",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "c"
+        },
+        {
+          "original": "movies",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "v"
+        },
+        {
+          "original": "is",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "nice",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "way",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "relax",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "after",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "long",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "week.",
+          "length": 5,
+          "focal_index": 1,
+          "focal_char": "e"
+        }
+      ]
+    },
+    {
+      "id": "easy_038",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Dogs are loyal friends who love to play fetch in the garden.",
+      "words": [
+        {
+          "original": "Dogs",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "are",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "loyal",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "y"
+        },
+        {
+          "original": "friends",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "e"
+        },
+        {
+          "original": "who",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "love",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "play",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "l"
+        },
+        {
+          "original": "fetch",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "garden.",
+          "length": 7,
+          "focal_index": 2,
+          "focal_char": "r"
+        }
+      ]
+    },
+    {
+      "id": "easy_039",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Keep your focus sharp by taking short breaks during your work time.",
+      "words": [
+        {
+          "original": "Keep",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "e"
+        },
+        {
+          "original": "your",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "focus",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "c"
+        },
+        {
+          "original": "sharp",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "by",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "b"
+        },
+        {
+          "original": "taking",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "k"
+        },
+        {
+          "original": "short",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "breaks",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "during",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "r"
+        },
+        {
+          "original": "your",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "work",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "time.",
+          "length": 5,
+          "focal_index": 1,
+          "focal_char": "i"
+        }
+      ]
+    },
+    {
+      "id": "easy_040",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 11,
+      "full_text": "Butterflies have colorful wings and fly gently from flower to flower.",
+      "words": [
+        {
+          "original": "Butterflies",
+          "length": 11,
+          "focal_index": 5,
+          "focal_char": "r"
+        },
+        {
+          "original": "have",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "colorful",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "o"
+        },
+        {
+          "original": "wings",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "n"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "fly",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "l"
+        },
+        {
+          "original": "gently",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "n"
+        },
+        {
+          "original": "from",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "flower",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "to",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "t"
+        },
+        {
+          "original": "flower.",
+          "length": 7,
+          "focal_index": 2,
+          "focal_char": "o"
+        }
+      ]
+    },
+    {
+      "id": "easy_041",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 11,
+      "full_text": "Eating vegetables gives you energy and keeps your body feeling strong.",
+      "words": [
+        {
+          "original": "Eating",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "vegetables",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "t"
+        },
+        {
+          "original": "gives",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "v"
+        },
+        {
+          "original": "you",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "energy",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "keeps",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "your",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "body",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "feeling",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "l"
+        },
+        {
+          "original": "strong.",
+          "length": 7,
+          "focal_index": 2,
+          "focal_char": "r"
+        }
+      ]
+    },
+    {
+      "id": "easy_042",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 11,
+      "full_text": "Happiness comes from appreciating the little things in your daily life.",
+      "words": [
+        {
+          "original": "Happiness",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "i"
+        },
+        {
+          "original": "comes",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "m"
+        },
+        {
+          "original": "from",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "appreciating",
+          "length": 12,
+          "focal_index": 5,
+          "focal_char": "c"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "little",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "t"
+        },
+        {
+          "original": "things",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "your",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "daily",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "life.",
+          "length": 5,
+          "focal_index": 1,
+          "focal_char": "i"
+        }
+      ]
+    },
+    {
+      "id": "easy_043",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Winter brings cold snow and creates a white blanket over the ground.",
+      "words": [
+        {
+          "original": "Winter",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "n"
+        },
+        {
+          "original": "brings",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "cold",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "snow",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "creates",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "a"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "white",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "blanket",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "over",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "v"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "ground.",
+          "length": 7,
+          "focal_index": 2,
+          "focal_char": "o"
+        }
+      ]
+    },
+    {
+      "id": "easy_044",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 11,
+      "full_text": "Libraries are quiet places filled with stories and knowledge for everyone.",
+      "words": [
+        {
+          "original": "Libraries",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "a"
+        },
+        {
+          "original": "are",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "quiet",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "i"
+        },
+        {
+          "original": "places",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "filled",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "l"
+        },
+        {
+          "original": "with",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "i"
+        },
+        {
+          "original": "stories",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "r"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "knowledge",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "l"
+        },
+        {
+          "original": "for",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "everyone.",
+          "length": 9,
+          "focal_index": 3,
+          "focal_char": "r"
+        }
+      ]
+    },
+    {
+      "id": "easy_045",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Hard work usually pays off if you stay patient and stay focused.",
+      "words": [
+        {
+          "original": "Hard",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "work",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "usually",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "a"
+        },
+        {
+          "original": "pays",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "off",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "f"
+        },
+        {
+          "original": "if",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "you",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "stay",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "t"
+        },
+        {
+          "original": "patient",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "i"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "stay",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "t"
+        },
+        {
+          "original": "focused.",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "u"
+        }
+      ]
+    },
+    {
+      "id": "easy_046",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 11,
+      "full_text": "Ocean waves crash against the sandy shore making a soothing sound.",
+      "words": [
+        {
+          "original": "Ocean",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "e"
+        },
+        {
+          "original": "waves",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "v"
+        },
+        {
+          "original": "crash",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "against",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "sandy",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "n"
+        },
+        {
+          "original": "shore",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "making",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "k"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "soothing",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "t"
+        },
+        {
+          "original": "sound.",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "u"
+        }
+      ]
+    },
+    {
+      "id": "easy_047",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "Mountains look purple from a distance when the sun goes down low.",
+      "words": [
+        {
+          "original": "Mountains",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "t"
+        },
+        {
+          "original": "look",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "purple",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "r"
+        },
+        {
+          "original": "from",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "a",
+          "length": 1,
+          "focal_index": 0,
+          "focal_char": "a"
+        },
+        {
+          "original": "distance",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "t"
+        },
+        {
+          "original": "when",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "sun",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "u"
+        },
+        {
+          "original": "goes",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "down",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "low.",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        }
+      ]
+    },
+    {
+      "id": "easy_048",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 11,
+      "full_text": "Honest people are trusted and respected by everyone in the community.",
+      "words": [
+        {
+          "original": "Honest",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "n"
+        },
+        {
+          "original": "people",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "are",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "r"
+        },
+        {
+          "original": "trusted",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "s"
+        },
+        {
+          "original": "and",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "n"
+        },
+        {
+          "original": "respected",
+          "length": 9,
+          "focal_index": 4,
+          "focal_char": "e"
+        },
+        {
+          "original": "by",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "b"
+        },
+        {
+          "original": "everyone",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "r"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "community.",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "u"
+        }
+      ]
+    },
+    {
+      "id": "easy_049",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 11,
+      "full_text": "Taking photos captures memories that you can look back on forever.",
+      "words": [
+        {
+          "original": "Taking",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "k"
+        },
+        {
+          "original": "photos",
+          "length": 6,
+          "focal_index": 2,
+          "focal_char": "o"
+        },
+        {
+          "original": "captures",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "t"
+        },
+        {
+          "original": "memories",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "o"
+        },
+        {
+          "original": "that",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "you",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "can",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "look",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "back",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "a"
+        },
+        {
+          "original": "on",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "o"
+        },
+        {
+          "original": "forever.",
+          "length": 8,
+          "focal_index": 3,
+          "focal_char": "e"
+        }
+      ]
+    },
+    {
+      "id": "easy_050",
+      "category": "General",
+      "difficulty": "Easy",
+      "total_word_count": 12,
+      "full_text": "The moon changes its shape throughout the month in the night sky.",
+      "words": [
+        {
+          "original": "The",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "moon",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "o"
+        },
+        {
+          "original": "changes",
+          "length": 7,
+          "focal_index": 3,
+          "focal_char": "n"
+        },
+        {
+          "original": "its",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "t"
+        },
+        {
+          "original": "shape",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "a"
+        },
+        {
+          "original": "throughout",
+          "length": 10,
+          "focal_index": 4,
+          "focal_char": "u"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "month",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "n"
+        },
+        {
+          "original": "in",
+          "length": 2,
+          "focal_index": 0,
+          "focal_char": "i"
+        },
+        {
+          "original": "the",
+          "length": 3,
+          "focal_index": 1,
+          "focal_char": "h"
+        },
+        {
+          "original": "night",
+          "length": 5,
+          "focal_index": 2,
+          "focal_char": "g"
+        },
+        {
+          "original": "sky.",
+          "length": 4,
+          "focal_index": 1,
+          "focal_char": "k"
+        }
+      ]
+    }
+  ]
+}

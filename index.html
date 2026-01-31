@@ -1,0 +1,1631 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OtterGuide - Complete OtterSpeak Documentation</title>
+    <meta name="description"
+        content="Comprehensive guide and documentation for OtterSpeak - the AI-powered speech and reading practice platform.">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦦</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+    <!-- SVG Filters for Colorblind Modes -->
+    <svg class="colorblind-filters" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <!-- Protanopia (Red-Blind) -->
+            <filter id="protanopia">
+                <feColorMatrix type="matrix" values="
+                    0.567, 0.433, 0,     0, 0
+                    0.558, 0.442, 0,     0, 0
+                    0,     0.242, 0.758, 0, 0
+                    0,     0,     0,     1, 0" />
+            </filter>
+            <!-- Deuteranopia (Green-Blind) -->
+            <filter id="deuteranopia">
+                <feColorMatrix type="matrix" values="
+                    0.625, 0.375, 0,   0, 0
+                    0.7,   0.3,   0,   0, 0
+                    0,     0.3,   0.7, 0, 0
+                    0,     0,     0,   1, 0" />
+            </filter>
+            <!-- Tritanopia (Blue-Blind) -->
+            <filter id="tritanopia">
+                <feColorMatrix type="matrix" values="
+                    0.95, 0.05,  0,     0, 0
+                    0,    0.433, 0.567, 0, 0
+                    0,    0.475, 0.525, 0, 0
+                    0,    0,     0,     1, 0" />
+            </filter>
+        </defs>
+    </svg>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="/" class="logo">
+                <span class="logo-icon">🦦</span>
+                <span class="logo-text">OtterGuide</span>
+            </a>
+
+            <nav class="nav-desktop">
+                <a href="#getting-started" class="nav-link" data-section="getting-started">
+                    <i data-lucide="rocket" class="icon"></i> Getting Started
+                </a>
+                <a href="#rsvp" class="nav-link" data-section="rsvp">
+                    <i data-lucide="zap" class="icon"></i> RSVP Demo
+                </a>
+                <a href="#modes" class="nav-link" data-section="modes">
+                    <i data-lucide="layout-grid" class="icon"></i> Modes
+                </a>
+                <a href="#features" class="nav-link" data-section="features">
+                    <i data-lucide="sparkles" class="icon"></i> Features
+                </a>
+                <a href="#settings" class="nav-link" data-section="settings">
+                    <i data-lucide="settings" class="icon"></i> Settings
+                </a>
+                <a href="#plans" class="nav-link" data-section="plans">
+                    <i data-lucide="crown" class="icon"></i> Plans
+                </a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i data-lucide="sun" class="icon sun-icon"></i>
+                    <i data-lucide="moon" class="icon moon-icon"></i>
+                </button>
+                <a href="https://otterspeak.com" target="_blank" class="cta-button">
+                    <span>Go to OtterSpeak</span>
+                    <i data-lucide="external-link" class="icon"></i>
+                </a>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open menu">
+                    <i data-lucide="menu" class="icon"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-header">
+            <span class="logo">
+                <span class="logo-icon">🦦</span>
+                <span class="logo-text">OtterGuide</span>
+            </span>
+            <button class="mobile-close-btn" id="mobileCloseBtn">
+                <i data-lucide="x" class="icon"></i>
+            </button>
+        </div>
+        <nav class="mobile-nav-links">
+            <a href="#getting-started" class="mobile-nav-link" data-section="getting-started">
+                <i data-lucide="rocket" class="icon"></i>
+                Getting Started
+            </a>
+            <a href="#rsvp" class="mobile-nav-link" data-section="rsvp">
+                <i data-lucide="zap" class="icon"></i>
+                RSVP Demo
+            </a>
+            <a href="#modes" class="mobile-nav-link" data-section="modes">
+                <i data-lucide="layout-grid" class="icon"></i>
+                Reading Modes
+            </a>
+            <a href="#features" class="mobile-nav-link" data-section="features">
+                <i data-lucide="sparkles" class="icon"></i>
+                Features
+            </a>
+            <a href="#settings" class="mobile-nav-link" data-section="settings">
+                <i data-lucide="settings" class="icon"></i>
+                Settings
+            </a>
+            <a href="#plans" class="mobile-nav-link" data-section="plans">
+                <i data-lucide="crown" class="icon"></i>
+                Plans
+            </a>
+            <a href="#faq" class="mobile-nav-link" data-section="faq">
+                <i data-lucide="help-circle" class="icon"></i>
+                FAQ
+            </a>
+        </nav>
+        <a href="https://otterspeak.com" target="_blank" class="mobile-cta">
+            Go to OtterSpeak
+            <i data-lucide="external-link" class="icon"></i>
+        </a>
+    </div>
+    <div class="mobile-nav-overlay" id="mobileNavOverlay"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient-1"></div>
+            <div class="hero-gradient-2"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i data-lucide="book-open" class="icon"></i>
+                Complete Documentation
+            </div>
+            <h1 class="hero-title">
+                Welcome to <span class="gradient-text">OtterGuide</span>
+            </h1>
+            <p class="hero-description">
+                Your comprehensive guide to mastering OtterSpeak - the AI-powered speech and reading practice platform
+                that helps you improve pronunciation, reading speed, and fluency.
+            </p>
+            <div class="hero-actions">
+                <a href="#getting-started" class="btn btn-primary">
+                    <i data-lucide="rocket" class="icon"></i>
+                    Get Started
+                </a>
+                <a href="#rsvp" class="btn btn-secondary">
+                    <i data-lucide="play" class="icon"></i>
+                    Try RSVP Demo
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <i data-lucide="layout-grid" class="icon stat-icon"></i>
+                    <span class="stat-value">6+</span>
+                    <span class="stat-label">Reading Modes</span>
+                </div>
+                <div class="stat">
+                    <i data-lucide="brain" class="icon stat-icon"></i>
+                    <span class="stat-value">AI</span>
+                    <span class="stat-label">Powered Analysis</span>
+                </div>
+                <div class="stat">
+                    <i data-lucide="infinity" class="icon stat-icon"></i>
+                    <span class="stat-value">∞</span>
+                    <span class="stat-label">Practice Sessions</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- Table of Contents Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-content">
+                <div class="sidebar-section">
+                    <h3 class="sidebar-title">
+                        <i data-lucide="compass" class="icon"></i>
+                        Quick Navigation
+                    </h3>
+                    <nav class="toc">
+                        <a href="#getting-started" class="toc-link active" data-section="getting-started">
+                            <i data-lucide="rocket" class="icon"></i>
+                            <span>Getting Started</span>
+                        </a>
+                        <a href="#rsvp" class="toc-link" data-section="rsvp">
+                            <i data-lucide="zap" class="icon"></i>
+                            <span>What is RSVP?</span>
+                        </a>
+                        <a href="#modes" class="toc-link" data-section="modes">
+                            <i data-lucide="layout-grid" class="icon"></i>
+                            <span>Reading Modes</span>
+                        </a>
+                        <div class="toc-submenu">
+                            <a href="#mode-blink" class="toc-sublink"><i data-lucide="eye" class="icon"></i> Blink
+                                Mode</a>
+                            <a href="#mode-click" class="toc-sublink"><i data-lucide="pointer" class="icon"></i> Click
+                                Mode</a>
+                            <a href="#mode-eyetrack" class="toc-sublink"><i data-lucide="scan-eye" class="icon"></i> Eye
+                                Track</a>
+                            <a href="#mode-psycho" class="toc-sublink"><i data-lucide="zap" class="icon"></i> Psycho
+                                Mode</a>
+                            <a href="#mode-memory" class="toc-sublink"><i data-lucide="brain" class="icon"></i> Memory
+                                Mode</a>
+                            <a href="#mode-how2speak" class="toc-sublink"><i data-lucide="volume-2" class="icon"></i>
+                                How2Speak</a>
+                        </div>
+                        <a href="#features" class="toc-link" data-section="features">
+                            <i data-lucide="sparkles" class="icon"></i>
+                            <span>Features</span>
+                        </a>
+                        <div class="toc-submenu">
+                            <a href="#feature-otterbrain" class="toc-sublink">Otter Brain AI</a>
+                            <a href="#feature-energy" class="toc-sublink">Energy System</a>
+                            <a href="#feature-progression" class="toc-sublink">Progression</a>
+                            <a href="#feature-rewards" class="toc-sublink">Rewards</a>
+                            <a href="#feature-leaderboard" class="toc-sublink">Leaderboard</a>
+                        </div>
+                        <a href="#settings" class="toc-link" data-section="settings">
+                            <i data-lucide="settings" class="icon"></i>
+                            <span>Settings</span>
+                        </a>
+                        <a href="#plans" class="toc-link" data-section="plans">
+                            <i data-lucide="crown" class="icon"></i>
+                            <span>Plans & Pricing</span>
+                        </a>
+                        <a href="#faq" class="toc-link" data-section="faq">
+                            <i data-lucide="help-circle" class="icon"></i>
+                            <span>FAQ</span>
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Content Area -->
+        <div class="content">
+            <!-- Getting Started Section -->
+            <section id="getting-started" class="section">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i data-lucide="rocket" class="icon"></i>
+                    </div>
+                    <div>
+                        <h2 class="section-title">Getting Started</h2>
+                        <p class="section-subtitle">Start your journey to better reading and pronunciation</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">What is OtterSpeak?</h3>
+                    <p class="card-text">
+                        OtterSpeak is an AI-powered platform designed to help you improve your reading speed,
+                        pronunciation, and fluency. Using advanced speech recognition and the Otter Brain AI, it
+                        provides real-time feedback on your reading sessions.
+                    </p>
+
+                    <div class="feature-grid">
+                        <div class="feature-item">
+                            <div class="feature-icon purple">
+                                <i data-lucide="mic" class="icon"></i>
+                            </div>
+                            <h4>Speech Recognition</h4>
+                            <p>Real-time pronunciation analysis powered by AI</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon blue">
+                                <i data-lucide="brain" class="icon"></i>
+                            </div>
+                            <h4>Otter Brain AI</h4>
+                            <p>Intelligent feedback and personalized tips</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon teal">
+                                <i data-lucide="trending-up" class="icon"></i>
+                            </div>
+                            <h4>Progress Tracking</h4>
+                            <p>Track your WPM, accuracy, and streaks</p>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon orange">
+                                <i data-lucide="trophy" class="icon"></i>
+                            </div>
+                            <h4>Rewards System</h4>
+                            <p>Earn XP, badges, and climb the leaderboard</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Quick Start Guide</h3>
+
+                    <div class="steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Create an Account</h4>
+                                <p>Sign up for free to unlock all features and track your progress. Guest users can try
+                                    Blink and Click modes with limited daily attempts.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Choose Your Mode</h4>
+                                <p>Select from 6 different reading modes based on your goals. Start with Blink Mode for
+                                    RSVP reading practice.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Configure Settings</h4>
+                                <p>Adjust WPM (words per minute), session duration, difficulty, and enable Focus mode
+                                    for better concentration.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Start Practicing</h4>
+                                <p>Click "Begin" to start your session. Read along with the words and speak them aloud
+                                    for pronunciation analysis.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">5</div>
+                            <div class="step-content">
+                                <h4>Review Results</h4>
+                                <p>After your session, review your accuracy, WPM, and AI-generated feedback to identify
+                                    areas for improvement.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-box tip">
+                    <i data-lucide="lightbulb" class="icon"></i>
+                    <div>
+                        <strong>Pro Tip:</strong> Enable <strong>Focus mode</strong> on your first few sessions. It
+                        highlights the
+                        current word with your accent color and dims surrounding text, helping you concentrate better.
+                    </div>
+                </div>
+            </section>
+
+            <!-- RSVP Explanation & Demo Section -->
+            <section id="rsvp" class="section">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i data-lucide="zap" class="icon"></i>
+                    </div>
+                    <div>
+                        <h2 class="section-title">What is RSVP?</h2>
+                        <p class="section-subtitle">Rapid Serial Visual Presentation explained</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">
+                        <i data-lucide="book-open" class="icon title-icon"></i>
+                        Understanding RSVP Reading
+                    </h3>
+
+                    <p class="card-text">
+                        <strong>RSVP (Rapid Serial Visual Presentation)</strong> is a speed reading technique where
+                        words are displayed
+                        one at a time in the same location on the screen. Instead of your eyes moving across lines of
+                        text,
+                        the words come to you - eliminating the time spent on eye movements (called "saccades").
+                    </p>
+
+                    <div class="rsvp-explanation">
+                        <div class="rsvp-benefit">
+                            <div class="benefit-icon">
+                                <i data-lucide="eye" class="icon"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h4><i data-lucide="chevron-right" class="icon"></i> No Eye Movement Required</h4>
+                                <p>Traditional reading requires your eyes to jump from word to word. RSVP eliminates
+                                    this by presenting words in a fixed position, reducing eye fatigue and increasing
+                                    reading efficiency.</p>
+                            </div>
+                        </div>
+
+                        <div class="rsvp-benefit">
+                            <div class="benefit-icon">
+                                <i data-lucide="brain" class="icon"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h4><i data-lucide="chevron-right" class="icon"></i> Reduced Subvocalization</h4>
+                                <p>Subvocalization is the habit of "speaking" words in your head while reading. At
+                                    higher WPM speeds, RSVP helps train your brain to recognize words without this
+                                    internal narration.</p>
+                            </div>
+                        </div>
+
+                        <div class="rsvp-benefit">
+                            <div class="benefit-icon">
+                                <i data-lucide="focus" class="icon"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h4><i data-lucide="chevron-right" class="icon"></i> Improved Focus</h4>
+                                <p>With only one word visible at a time, distractions are minimized. Your brain focuses
+                                    entirely on processing each word as it appears.</p>
+                            </div>
+                        </div>
+
+                        <div class="rsvp-benefit">
+                            <div class="benefit-icon">
+                                <i data-lucide="trending-up" class="icon"></i>
+                            </div>
+                            <div class="benefit-content">
+                                <h4><i data-lucide="chevron-right" class="icon"></i> Gradual Speed Training</h4>
+                                <p>Start at a comfortable WPM (150-200) and gradually increase. Over time, your brain
+                                    adapts to faster speeds while maintaining comprehension.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interactive RSVP Demo -->
+                <div class="card rsvp-demo-card">
+                    <h3 class="card-title">
+                        <i data-lucide="play-circle" class="icon title-icon"></i>
+                        Try RSVP Reading - Interactive Demo
+                    </h3>
+                    <p class="card-text">
+                        Experience RSVP reading firsthand! Words flash one at a time at your chosen speed.
+                        The demo runs for 30 seconds with gradually increasing WPM.
+                    </p>
+
+                    <!-- Demo Controls -->
+                    <div class="demo-controls">
+                        <div class="control-group">
+                            <label>
+                                <i data-lucide="gauge" class="icon"></i>
+                                Starting WPM: <span id="wpmValue">150</span>
+                            </label>
+                            <input type="range" id="wpmSlider" min="100" max="400" value="150" step="25">
+                            <div class="wpm-presets">
+                                <button class="wpm-preset" data-wpm="100"><i data-lucide="turtle" class="icon"></i>
+                                    100</button>
+                                <button class="wpm-preset active" data-wpm="150"><i data-lucide="user" class="icon"></i>
+                                    150</button>
+                                <button class="wpm-preset" data-wpm="200"><i data-lucide="rabbit" class="icon"></i>
+                                    200</button>
+                                <button class="wpm-preset" data-wpm="300"><i data-lucide="rocket" class="icon"></i>
+                                    300</button>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label>
+                                <i data-lucide="eye" class="icon"></i>
+                                Color Vision
+                            </label>
+                            <select id="colorblindSelect">
+                                <option value="normal">Normal Vision</option>
+                                <option value="protanopia">Protanopia (Red-blind)</option>
+                                <option value="deuteranopia">Deuteranopia (Green-blind)</option>
+                                <option value="tritanopia">Tritanopia (Blue-blind)</option>
+                                <option value="achromatopsia">Achromatopsia (Grayscale)</option>
+                            </select>
+                        </div>
+
+                        <div class="control-toggles">
+                            <button class="toggle-btn active" id="focusToggle">
+                                <i data-lucide="focus" class="icon"></i>
+                                <span>Focus Mode</span>
+                                <span class="toggle-status">ON</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- RSVP Display (Minimal Preview) -->
+                    <div class="rsvp-container rsvp-mini" id="rsvpContainer">
+                        <div class="rsvp-display" id="rsvpDisplay">
+                            <div class="rsvp-word-wrapper">
+                                <span class="rsvp-word" id="rsvpWord">Ready</span>
+                            </div>
+                            <div class="rsvp-timer" id="rsvpTimer">
+                                <i data-lucide="clock" class="icon"></i>
+                                <span id="timerDisplay">0:30</span>
+                            </div>
+                            <div class="rsvp-progress">
+                                <div class="progress-bar" id="progressBar"></div>
+                            </div>
+                            <div class="rsvp-stats">
+                                <span id="currentWpm"><i data-lucide="gauge" class="icon"></i> 150 WPM</span>
+                            </div>
+                        </div>
+
+                        <div class="rsvp-actions">
+                            <button class="rsvp-btn play" id="playBtn">
+                                <i data-lucide="play" class="icon"></i>
+                                <span>Play</span>
+                            </button>
+                            <button class="rsvp-btn pause" id="pauseBtn" disabled>
+                                <i data-lucide="pause" class="icon"></i>
+                                <span>Pause</span>
+                            </button>
+                            <button class="rsvp-btn reset" id="resetBtn">
+                                <i data-lucide="rotate-ccw" class="icon"></i>
+                                <span>Reset</span>
+                            </button>
+                            <button class="rsvp-btn expand" id="expandBtn">
+                                <i data-lucide="maximize-2" class="icon"></i>
+                                <span>Expand</span>
+                            </button>
+                            <button class="rsvp-btn exit hidden" id="exitBtn">
+                                <i data-lucide="minimize-2" class="icon"></i>
+                                <span>Exit</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="info-box info">
+                        <i data-lucide="info" class="icon"></i>
+                        <div>
+                            <strong>How it works:</strong> Click <strong>Play</strong> to start a 30-second session.
+                            WPM increases gradually as you progress. Focus mode highlights the optimal reading point in
+                            each word.
+                            In the real app, you'd also speak the words aloud!
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WPM Guide -->
+                <div class="card">
+                    <h3 class="card-title">
+                        <i data-lucide="gauge" class="icon title-icon"></i>
+                        WPM Speed Guide
+                    </h3>
+
+                    <div class="wpm-guide">
+                        <div class="wpm-tier beginner">
+                            <div class="wpm-range">100-200 WPM</div>
+                            <div class="wpm-label">
+                                <i data-lucide="turtle" class="icon"></i>
+                                Beginner
+                            </div>
+                            <p>Comfortable pace for learning. Focus on pronunciation and comprehension.</p>
+                        </div>
+                        <div class="wpm-tier intermediate">
+                            <div class="wpm-range">200-350 WPM</div>
+                            <div class="wpm-label">
+                                <i data-lucide="rabbit" class="icon"></i>
+                                Intermediate
+                            </div>
+                            <p>Average adult reading speed. Good balance of speed and understanding.</p>
+                        </div>
+                        <div class="wpm-tier advanced">
+                            <div class="wpm-range">350-500 WPM</div>
+                            <div class="wpm-label">
+                                <i data-lucide="rocket" class="icon"></i>
+                                Advanced
+                            </div>
+                            <p>Speed reader territory. Requires practice to maintain comprehension.</p>
+                        </div>
+                        <div class="wpm-tier expert">
+                            <div class="wpm-range">500+ WPM</div>
+                            <div class="wpm-label">
+                                <i data-lucide="flame" class="icon"></i>
+                                Expert
+                            </div>
+                            <p>Elite level. Only achievable with dedicated RSVP training.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Reading Modes Section -->
+            <section id="modes" class="section">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i data-lucide="layout-grid" class="icon"></i>
+                    </div>
+                    <div>
+                        <h2 class="section-title">Reading Modes</h2>
+                        <p class="section-subtitle">6 unique ways to practice and improve</p>
+                    </div>
+                </div>
+
+                <!-- Blink Mode -->
+                <div id="mode-blink" class="card mode-card">
+                    <div class="mode-header">
+                        <div class="mode-icon blink">
+                            <i data-lucide="eye" class="icon"></i>
+                        </div>
+                        <div class="mode-info">
+                            <h3 class="mode-title">Blink Mode</h3>
+                            <span class="mode-badge free">Free for Guests</span>
+                        </div>
+                    </div>
+                    <p class="card-text">
+                        Your go-to mode for RSVP (Rapid Serial Visual Presentation) reading. Words flash one at a time
+                        at your chosen WPM, training your brain to process text faster.
+                    </p>
+                    <div class="mode-features">
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Adjustable WPM (50-1000)</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Focus mode for concentration</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Speech recognition for pronunciation</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Pause at periods option</span>
+                        </div>
+                    </div>
+                    <div class="mode-preview">
+                        <div class="preview-label">Preview</div>
+                        <div class="preview-content blink-preview">
+                            <span class="blink-word">Reading</span>
+                        </div>
+                    </div>
+                    <div class="info-box tip">
+                        <i data-lucide="lightbulb" class="icon"></i>
+                        <div>
+                            <strong>Best for:</strong> Speed reading training, improving reading fluency, and reducing
+                            subvocalization.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Click Mode -->
+                <div id="mode-click" class="card mode-card">
+                    <div class="mode-header">
+                        <div class="mode-icon click">
+                            <i data-lucide="pointer" class="icon"></i>
+                        </div>
+                        <div class="mode-info">
+                            <h3 class="mode-title">Click Mode</h3>
+                            <span class="mode-badge free">Free for Guests</span>
+                        </div>
+                    </div>
+                    <p class="card-text">
+                        Click through words at your own pace. This mode gives you full control - pronounce each word,
+                        then click or press space to advance. Perfect for deliberate practice.
+                    </p>
+                    <div class="mode-features">
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Self-paced learning</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>WPM calculated at session end</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Click or spacebar to advance</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Great for beginners</span>
+                        </div>
+                    </div>
+                    <div class="mode-preview">
+                        <div class="preview-label">Preview</div>
+                        <div class="preview-content click-preview">
+                            <span class="click-word">Pronounce</span>
+                            <span class="click-hint">Click to continue →</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Eye Track Mode -->
+                <div id="mode-eyetrack" class="card mode-card">
+                    <div class="mode-header">
+                        <div class="mode-icon eyetrack">
+                            <i data-lucide="scan-eye" class="icon"></i>
+                        </div>
+                        <div class="mode-info">
+                            <h3 class="mode-title">Eye Track Mode</h3>
+                            <span class="mode-badge member">Members Only</span>
+                        </div>
+                    </div>
+                    <p class="card-text">
+                        Words appear randomly across the canvas. Track each word with your eyes, recognize it, and
+                        pronounce it. Great for improving visual tracking and peripheral awareness.
+                    </p>
+                    <div class="mode-features">
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Random word positioning</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Eye tracking simulation</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Improves visual scanning</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>WPM calculated at end</span>
+                        </div>
+                    </div>
+                    <div class="mode-preview">
+                        <div class="preview-label">Preview</div>
+                        <div class="preview-content eyetrack-preview">
+                            <span class="eyetrack-word" style="top: 20%; left: 30%;">Find</span>
+                            <span class="eyetrack-word" style="top: 60%; left: 70%;">Words</span>
+                            <span class="eyetrack-word active" style="top: 40%; left: 50%;">Here</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Psycho Mode -->
+                <div id="mode-psycho" class="card mode-card">
+                    <div class="mode-header">
+                        <div class="mode-icon psycho">
+                            <i data-lucide="zap" class="icon"></i>
+                        </div>
+                        <div class="mode-info">
+                            <h3 class="mode-title">Psycho Mode</h3>
+                            <span class="mode-badge prime">Prime Feature</span>
+                        </div>
+                    </div>
+                    <p class="card-text">
+                        For the fearless. Chaotic visual effects, unpredictable timing, and intense challenges. Read and
+                        survive!
+                        <strong class="warning-text">⚠️ Not recommended for those sensitive to flashing lights or
+                            excessive motion.</strong>
+                    </p>
+                    <div class="mode-features">
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Chaotic visual effects</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Unpredictable word timing</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Intense sound effects</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Ultimate focus challenge</span>
+                        </div>
+                    </div>
+                    <div class="mode-preview">
+                        <div class="preview-label">Preview</div>
+                        <div class="preview-content psycho-preview">
+                            <span class="psycho-word">CHAOS</span>
+                            <div class="psycho-effects"></div>
+                        </div>
+                    </div>
+                    <div class="info-box warning">
+                        <i data-lucide="alert-triangle" class="icon"></i>
+                        <div>
+                            <strong>Warning:</strong> Wear headphones for full experience. Disable in Options if you
+                            have photosensitivity.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Memory Mode -->
+                <div id="mode-memory" class="card mode-card">
+                    <div class="mode-header">
+                        <div class="mode-icon memory">
+                            <i data-lucide="brain" class="icon"></i>
+                        </div>
+                        <div class="mode-info">
+                            <h3 class="mode-title">Memory Mode</h3>
+                            <span class="mode-badge member">Members Only</span>
+                        </div>
+                    </div>
+                    <p class="card-text">
+                        Train your memory alongside reading. Choose between Listening (memorize sentences) or Sequence
+                        (memorize word chains) sub-modes.
+                    </p>
+                    <div class="mode-submodes">
+                        <div class="submode">
+                            <div class="submode-header">
+                                <i data-lucide="ear" class="icon"></i>
+                                <h4>Listening Mode</h4>
+                            </div>
+                            <p>Memorize a sentence, then pronounce it from memory. Sessions: 5, 10, or 15 sentences.</p>
+                        </div>
+                        <div class="submode">
+                            <div class="submode-header">
+                                <i data-lucide="list-ordered" class="icon"></i>
+                                <h4>Sequence Mode</h4>
+                            </div>
+                            <p>Memorize a sequence of words in order. Sessions: 5 or 10 sequences.</p>
+                        </div>
+                    </div>
+                    <div class="mode-features">
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Two sub-modes available</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Configurable session length</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Trains working memory</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Variable energy costs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- How2Speak Mode -->
+                <div id="mode-how2speak" class="card mode-card">
+                    <div class="mode-header">
+                        <div class="mode-icon how2speak">
+                            <i data-lucide="volume-2" class="icon"></i>
+                        </div>
+                        <div class="mode-info">
+                            <h3 class="mode-title">How2Speak Mode</h3>
+                            <span class="mode-badge member">Members Only</span>
+                        </div>
+                    </div>
+                    <p class="card-text">
+                        Learn the correct pronunciation of commonly mispronounced words. Each 2-minute session presents
+                        challenging words with phonetic guides and optional AI vocals.
+                    </p>
+                    <div class="mode-features">
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Curated word lists</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Phonetic pronunciation guides</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>Optional AI voice (vocals)</span>
+                        </div>
+                        <div class="mode-feature">
+                            <i data-lucide="check" class="icon"></i>
+                            <span>2-minute focused sessions</span>
+                        </div>
+                    </div>
+                    <div class="mode-preview">
+                        <div class="preview-label">Preview</div>
+                        <div class="preview-content how2speak-preview">
+                            <div class="h2s-word">Worcestershire</div>
+                            <div class="h2s-phonetic">woos-ter-sher</div>
+                        </div>
+                    </div>
+                    <div class="info-box tip">
+                        <i data-lucide="lightbulb" class="icon"></i>
+                        <div>
+                            <strong>Tip:</strong> Enable "Vocals" to hear AI pronunciation. Uses 5 energy instead of 2.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mode Comparison Table -->
+                <div class="card">
+                    <h3 class="card-title">Mode Comparison</h3>
+                    <div class="table-wrapper">
+                        <table class="comparison-table">
+                            <thead>
+                                <tr>
+                                    <th>Mode</th>
+                                    <th>Access</th>
+                                    <th>Energy Cost</th>
+                                    <th>Best For</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span class="mode-label blink"><i data-lucide="eye" class="icon"></i>
+                                            Blink</span></td>
+                                    <td><span class="badge free">Free</span></td>
+                                    <td>2 ☀️</td>
+                                    <td>Speed reading, fluency</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="mode-label click"><i data-lucide="pointer" class="icon"></i>
+                                            Click</span></td>
+                                    <td><span class="badge free">Free</span></td>
+                                    <td>2 ☀️</td>
+                                    <td>Beginners, deliberate practice</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="mode-label eyetrack"><i data-lucide="scan-eye" class="icon"></i>
+                                            Eye Track</span></td>
+                                    <td><span class="badge member">Member</span></td>
+                                    <td>2 ☀️</td>
+                                    <td>Visual tracking</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="mode-label psycho"><i data-lucide="zap" class="icon"></i>
+                                            Psycho</span></td>
+                                    <td><span class="badge prime">Prime</span></td>
+                                    <td>2 ☀️</td>
+                                    <td>Ultimate challenge</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="mode-label memory"><i data-lucide="brain" class="icon"></i>
+                                            Memory</span></td>
+                                    <td><span class="badge member">Member</span></td>
+                                    <td>2-8 ☀️</td>
+                                    <td>Memory training</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="mode-label how2speak"><i data-lucide="volume-2" class="icon"></i>
+                                            How2Speak</span></td>
+                                    <td><span class="badge member">Member</span></td>
+                                    <td>2-5 ☀️</td>
+                                    <td>Pronunciation learning</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section id="features" class="section">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i data-lucide="sparkles" class="icon"></i>
+                    </div>
+                    <div>
+                        <h2 class="section-title">Features</h2>
+                        <p class="section-subtitle">Everything OtterSpeak has to offer</p>
+                    </div>
+                </div>
+
+                <!-- Otter Brain AI -->
+                <div id="feature-otterbrain" class="card">
+                    <div class="feature-header">
+                        <div class="feature-icon-large purple">
+                            <i data-lucide="cpu" class="icon"></i>
+                        </div>
+                        <div>
+                            <h3 class="card-title">
+                                <i data-lucide="sparkles" class="icon title-icon"></i>
+                                Otter Brain
+                            </h3>
+                            <p class="feature-tagline">
+                                <i data-lucide="brain" class="icon"></i>
+                                AI-Powered Pronunciation Analysis
+                            </p>
+                        </div>
+                    </div>
+                    <p class="card-text">
+                        Otter Brain is OtterSpeak's intelligent assistant that listens to your reading sessions and
+                        provides detailed feedback on your pronunciation. It analyzes each word you speak and helps
+                        you identify areas for improvement.
+                    </p>
+
+                    <h4 class="subsection-title">
+                        <i data-lucide="activity" class="icon"></i>
+                        Status Indicators
+                    </h4>
+                    <p class="small-text">When you open OtterSpeak, Otter Brain wakes up automatically. Look for these
+                        status indicators:</p>
+
+                    <div class="ai-status-demo">
+                        <div class="status-item">
+                            <span class="status-dot idle"></span>
+                            <div>
+                                <strong>Idle</strong>
+                                <span>Not connected yet</span>
+                            </div>
+                        </div>
+                        <div class="status-item">
+                            <span class="status-dot starting"></span>
+                            <div>
+                                <strong>Starting</strong>
+                                <span>Waking up the server...</span>
+                            </div>
+                        </div>
+                        <div class="status-item">
+                            <span class="status-dot loading"></span>
+                            <div>
+                                <strong>Loading</strong>
+                                <span>Preparing AI model...</span>
+                            </div>
+                        </div>
+                        <div class="status-item">
+                            <span class="status-dot ready"></span>
+                            <div>
+                                <strong>Ready</strong>
+                                <span>Fully operational!</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h4 class="subsection-title">
+                        <i data-lucide="check-circle" class="icon"></i>
+                        What Otter Brain Does
+                    </h4>
+                    <div class="feature-capabilities">
+                        <ul>
+                            <li><i data-lucide="mic" class="icon"></i> Listens to your voice during reading sessions
+                            </li>
+                            <li><i data-lucide="check" class="icon"></i> Compares your pronunciation against expected
+                                words</li>
+                            <li><i data-lucide="percent" class="icon"></i> Calculates word-by-word accuracy scores</li>
+                            <li><i data-lucide="text" class="icon"></i> Identifies mispronounced phonemes (Happy+ users)
+                            </li>
+                            <li><i data-lucide="message-square" class="icon"></i> Provides session summary and
+                                improvement tips</li>
+                            <li><i data-lucide="zap" class="icon"></i> Priority processing for Happy & Prime subscribers
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="info-box info">
+                        <i data-lucide="info" class="icon"></i>
+                        <div>
+                            <strong>Note:</strong> Otter Brain requires microphone access to analyze your pronunciation.
+                            Your audio is processed in real-time and is not stored permanently.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Energy System -->
+                <div id="feature-energy" class="card">
+                    <div class="feature-header">
+                        <div class="feature-icon-large orange">
+                            <i data-lucide="sun" class="icon"></i>
+                        </div>
+                        <div>
+                            <h3 class="card-title">Energy System</h3>
+                            <p class="feature-tagline">Sun Energy & Leaf Energy</p>
+                        </div>
+                    </div>
+                    <p class="card-text">
+                        OtterSpeak uses an energy system to pace your practice sessions. Sun Energy (☀️) is your primary
+                        resource that resets daily.
+                    </p>
+
+                    <div class="energy-tiers">
+                        <div class="energy-tier">
+                            <div class="tier-header npc">
+                                <i data-lucide="shield" class="icon"></i>
+                                <h4>NPC Otter (Free)</h4>
+                            </div>
+                            <ul>
+                                <li>20 ☀️ daily energy</li>
+                                <li>~10 sessions per day</li>
+                                <li>Resets at midnight</li>
+                            </ul>
+                        </div>
+                        <div class="energy-tier">
+                            <div class="tier-header happy">
+                                <i data-lucide="rocket" class="icon"></i>
+                                <h4>Happy Otter</h4>
+                            </div>
+                            <ul>
+                                <li>100 ☀️ daily energy</li>
+                                <li>~50 sessions per day</li>
+                                <li>3 streak freezes/month</li>
+                            </ul>
+                        </div>
+                        <div class="energy-tier">
+                            <div class="tier-header prime">
+                                <i data-lucide="crown" class="icon"></i>
+                                <h4>Prime Otter</h4>
+                            </div>
+                            <ul>
+                                <li>500 ☀️ daily energy</li>
+                                <li>Effectively unlimited</li>
+                                <li>10 streak freezes/month</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="info-box info">
+                        <i data-lucide="info" class="icon"></i>
+                        <div>
+                            <strong>Energy Costs:</strong> Most modes cost 2 ☀️. Memory mode varies (2-8 ☀️). How2Speak
+                            with vocals costs 5 ☀️.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Progression System -->
+                <div id="feature-progression" class="card">
+                    <div class="feature-header">
+                        <div class="feature-icon-large teal">
+                            <i data-lucide="trending-up" class="icon"></i>
+                        </div>
+                        <div>
+                            <h3 class="card-title">Progression System</h3>
+                            <p class="feature-tagline">Track your growth</p>
+                        </div>
+                    </div>
+
+                    <div class="progression-metrics">
+                        <div class="metric">
+                            <div class="metric-icon xp">XP</div>
+                            <div class="metric-info">
+                                <h4>Experience Points</h4>
+                                <p>Earn XP from sessions based on accuracy and words read. Contributes to Battlepass
+                                    progression.</p>
+                            </div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-icon streak">
+                                <i data-lucide="flame" class="icon"></i>
+                            </div>
+                            <div class="metric-info">
+                                <h4>Daily Streak</h4>
+                                <p>Complete at least one session daily to maintain your streak. Use Streak Freezes to
+                                    protect it!</p>
+                            </div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-icon otterscore">🦦</div>
+                            <div class="metric-info">
+                                <h4>Otter Score</h4>
+                                <p>Your global ranking score combining accuracy, speed, and consistency.</p>
+                            </div>
+                        </div>
+                        <div class="metric">
+                            <div class="metric-icon wpm">
+                                <i data-lucide="gauge" class="icon"></i>
+                            </div>
+                            <div class="metric-info">
+                                <h4>Words Per Minute</h4>
+                                <p>Track your reading speed. Set goals and watch your WPM improve over time.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rewards System -->
+                <div id="feature-rewards" class="card">
+                    <div class="feature-header">
+                        <div class="feature-icon-large yellow">
+                            <i data-lucide="gift" class="icon"></i>
+                        </div>
+                        <div>
+                            <h3 class="card-title">Rewards System</h3>
+                            <p class="feature-tagline">Daily login & Battlepass</p>
+                        </div>
+                    </div>
+
+                    <div class="rewards-section">
+                        <h4><i data-lucide="calendar" class="icon"></i> 7-Day Login Rewards</h4>
+                        <p>Claim rewards every day for a week! The cycle repeats after day 7.</p>
+                        <div class="login-rewards">
+                            <div class="reward-day">Day 1<span>100 XP</span></div>
+                            <div class="reward-day">Day 2<span>Badge</span></div>
+                            <div class="reward-day">Day 3<span>20 ☀️</span></div>
+                            <div class="reward-day">Day 4<span>300 XP</span></div>
+                            <div class="reward-day">Day 5<span>2 Freezes</span></div>
+                            <div class="reward-day">Day 6<span>500 XP</span></div>
+                            <div class="reward-day special">Day 7<span>Crown + 1000 XP</span></div>
+                        </div>
+                    </div>
+
+                    <div class="rewards-section">
+                        <h4><i data-lucide="sword" class="icon"></i> Battlepass (50 Levels)</h4>
+                        <p>Progress through 50 levels by earning XP. Each level requires 500 XP.</p>
+                        <div class="battlepass-preview">
+                            <div class="bp-item common">Lv 1-9: XP Boosts</div>
+                            <div class="bp-item rare">Lv 10, 20, 30, 40: Badges</div>
+                            <div class="bp-item epic">Lv 25: Neon Glow Effect</div>
+                            <div class="bp-item legendary">Lv 50: Golden Aura Effect</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Leaderboard -->
+                <div id="feature-leaderboard" class="card">
+                    <div class="feature-header">
+                        <div class="feature-icon-large gold">
+                            <i data-lucide="trophy" class="icon"></i>
+                        </div>
+                        <div>
+                            <h3 class="card-title">Leaderboard</h3>
+                            <p class="feature-tagline">Compete globally</p>
+                        </div>
+                    </div>
+                    <p class="card-text">
+                        See how you stack up against other otters worldwide. Filter by All Time XP, Monthly XP, or Otter
+                        Score.
+                    </p>
+                    <div class="leaderboard-features">
+                        <div class="lb-feature">
+                            <i data-lucide="filter" class="icon"></i>
+                            <span>Multiple ranking modes</span>
+                        </div>
+                        <div class="lb-feature">
+                            <i data-lucide="search" class="icon"></i>
+                            <span>Search for friends</span>
+                        </div>
+                        <div class="lb-feature">
+                            <i data-lucide="eye-off" class="icon"></i>
+                            <span>Privacy controls</span>
+                        </div>
+                        <div class="lb-feature">
+                            <i data-lucide="palette" class="icon"></i>
+                            <span>Colored names for subscribers</span>
+                        </div>
+                    </div>
+                    <div class="info-box tip">
+                        <i data-lucide="lightbulb" class="icon"></i>
+                        <div>
+                            <strong>Tip:</strong> Happy Otters get blue names, Prime Otters get gold names on the
+                            leaderboard!
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Settings Section -->
+            <section id="settings" class="section">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i data-lucide="settings" class="icon"></i>
+                    </div>
+                    <div>
+                        <h2 class="section-title">Settings & Options</h2>
+                        <p class="section-subtitle">Customize your experience</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Options Page</h3>
+                    <p class="card-text">Access Options from the home screen to customize your reading experience.</p>
+
+                    <div class="settings-grid">
+                        <!-- Appearance -->
+                        <div class="settings-category">
+                            <h4><i data-lucide="palette" class="icon"></i> Appearance</h4>
+                            <ul>
+                                <li><strong>Theme:</strong> Dark or Light mode</li>
+                                <li><strong>Accent Color:</strong> Cyan, Orange, Green, Sky, Magenta, Indigo</li>
+                                <li><strong>Font Size:</strong> 0.8x to 1.5x scaling</li>
+                                <li><strong>Reader Font:</strong> Inter, Merriweather, Roboto Mono, Open Sans, Comic
+                                    Neue</li>
+                                <li><strong>Reader View:</strong> Crosshair or Tunnel style</li>
+                            </ul>
+                        </div>
+
+                        <!-- Audio -->
+                        <div class="settings-category">
+                            <h4><i data-lucide="volume-2" class="icon"></i> Audio</h4>
+                            <ul>
+                                <li><strong>Input Device:</strong> Select microphone</li>
+                                <li><strong>Output Device:</strong> Select speakers</li>
+                                <li><strong>Noise Suppression:</strong> Toggle noise gate</li>
+                                <li><strong>Live Monitor:</strong> Test your mic in real-time</li>
+                                <li><strong>Record Test:</strong> Record and playback</li>
+                            </ul>
+                        </div>
+
+                        <!-- Accessibility -->
+                        <div class="settings-category">
+                            <h4><i data-lucide="accessibility" class="icon"></i> Accessibility</h4>
+                            <ul>
+                                <li><strong>Reduced Motion:</strong> Disable animations</li>
+                                <li><strong>Photosensitivity:</strong> Disable flashing effects & Psycho Mode</li>
+                                <li><strong>Color Blind Modes:</strong> Protanopia, Deuteranopia, Tritanopia,
+                                    Achromatopsia</li>
+                            </ul>
+                        </div>
+
+                        <!-- Misc -->
+                        <div class="settings-category">
+                            <h4><i data-lucide="settings-2" class="icon"></i> Misc</h4>
+                            <ul>
+                                <li><strong>Pro Tips:</strong> Show tips during countdown</li>
+                                <li><strong>SFX:</strong> Enable/disable sound effects</li>
+                                <li><strong>Pause at Periods:</strong> Brief pause on sentences</li>
+                                <li><strong>Reset to Defaults:</strong> Restore all settings</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3 class="card-title">Account Settings</h3>
+                    <p class="card-text">Manage your account from the Settings page (gear icon in header).</p>
+
+                    <div class="settings-grid">
+                        <div class="settings-category">
+                            <h4><i data-lucide="user" class="icon"></i> Profile</h4>
+                            <ul>
+                                <li>Change username</li>
+                                <li>Update email</li>
+                                <li>Select region/country</li>
+                                <li>Choose avatar</li>
+                                <li>Equip badges (up to 3)</li>
+                                <li>Activate profile effects</li>
+                            </ul>
+                        </div>
+
+                        <div class="settings-category">
+                            <h4><i data-lucide="shield" class="icon"></i> Security</h4>
+                            <ul>
+                                <li>Change password</li>
+                                <li>Enable 2FA (coming soon)</li>
+                                <li>View login history</li>
+                            </ul>
+                        </div>
+
+                        <div class="settings-category">
+                            <h4><i data-lucide="credit-card" class="icon"></i> Plans & Payments</h4>
+                            <ul>
+                                <li>View current plan</li>
+                                <li>Transaction history</li>
+                                <li>Cancel subscription</li>
+                                <li>Upgrade/downgrade tier</li>
+                            </ul>
+                        </div>
+
+                        <div class="settings-category danger">
+                            <h4><i data-lucide="alert-triangle" class="icon"></i> Danger Zone</h4>
+                            <ul>
+                                <li>Delete account permanently</li>
+                                <li>This action cannot be undone</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Plans Section -->
+            <section id="plans" class="section">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i data-lucide="crown" class="icon"></i>
+                    </div>
+                    <div>
+                        <h2 class="section-title">Plans & Pricing</h2>
+                        <p class="section-subtitle">Choose your otter tier</p>
+                    </div>
+                </div>
+
+                <div class="plans-grid">
+                    <!-- NPC Otter -->
+                    <div class="plan-card npc">
+                        <div class="plan-header">
+                            <div class="plan-icon">
+                                <i data-lucide="shield" class="icon"></i>
+                            </div>
+                            <h3 class="plan-name">NPC Otter</h3>
+                            <div class="plan-price">Free</div>
+                            <p class="plan-desc">Get started for free</p>
+                        </div>
+                        <ul class="plan-features">
+                            <li><i data-lucide="check" class="icon"></i> 20 Sun Energy daily</li>
+                            <li><i data-lucide="check" class="icon"></i> Blink & Click modes</li>
+                            <li><i data-lucide="check" class="icon"></i> Basic Otter Brain</li>
+                            <li><i data-lucide="check" class="icon"></i> 7-day session history</li>
+                            <li><i data-lucide="check" class="icon"></i> 5 avatar options</li>
+                            <li><i data-lucide="x" class="icon no"></i> No streak freezes</li>
+                            <li><i data-lucide="x" class="icon no"></i> Standard ads</li>
+                        </ul>
+                    </div>
+
+                    <!-- Happy Otter -->
+                    <div class="plan-card happy">
+                        <div class="plan-badge">Popular</div>
+                        <div class="plan-header">
+                            <div class="plan-icon">
+                                <i data-lucide="rocket" class="icon"></i>
+                            </div>
+                            <h3 class="plan-name">Happy Otter</h3>
+                            <div class="plan-price">$4.99<span>/mo</span></div>
+                            <p class="plan-subprice">or ₹199/mo</p>
+                            <p class="plan-desc">Serious about improvement</p>
+                        </div>
+                        <ul class="plan-features">
+                            <li><i data-lucide="check" class="icon"></i> 100 Sun Energy daily</li>
+                            <li><i data-lucide="check" class="icon"></i> All reading modes</li>
+                            <li><i data-lucide="check" class="icon"></i> Priority Otter Brain</li>
+                            <li><i data-lucide="check" class="icon"></i> 30-day session history</li>
+                            <li><i data-lucide="check" class="icon"></i> Full avatar library</li>
+                            <li><i data-lucide="check" class="icon"></i> 3 streak freezes/month</li>
+                            <li><i data-lucide="check" class="icon"></i> Profile badges</li>
+                            <li><i data-lucide="check" class="icon"></i> Blue name in leaderboard</li>
+                            <li><i data-lucide="check" class="icon"></i> Less intrusive ads</li>
+                        </ul>
+                    </div>
+
+                    <!-- Prime Otter -->
+                    <div class="plan-card prime">
+                        <div class="plan-badge gold">Best Value</div>
+                        <div class="plan-header">
+                            <div class="plan-icon">
+                                <i data-lucide="crown" class="icon"></i>
+                            </div>
+                            <h3 class="plan-name">Prime Otter</h3>
+                            <div class="plan-price">$12.99<span>/mo</span></div>
+                            <p class="plan-subprice">or ₹999/mo</p>
+                            <p class="plan-desc">The ultimate experience</p>
+                        </div>
+                        <ul class="plan-features">
+                            <li><i data-lucide="check" class="icon"></i> 500 Sun Energy daily</li>
+                            <li><i data-lucide="check" class="icon"></i> All modes + Psycho</li>
+                            <li><i data-lucide="check" class="icon"></i> Priority + AI texts</li>
+                            <li><i data-lucide="check" class="icon"></i> Unlimited history</li>
+                            <li><i data-lucide="check" class="icon"></i> Exclusive avatars</li>
+                            <li><i data-lucide="check" class="icon"></i> 10 streak freezes/month</li>
+                            <li><i data-lucide="check" class="icon"></i> Exclusive badges & effects</li>
+                            <li><i data-lucide="check" class="icon"></i> Gold name in leaderboard</li>
+                            <li><i data-lucide="check" class="icon"></i> Completely ad-free</li>
+                            <li><i data-lucide="check" class="icon"></i> Direct dev feedback</li>
+                            <li><i data-lucide="check" class="icon"></i> Early access features</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="info-box info">
+                    <i data-lucide="info" class="icon"></i>
+                    <div>
+                        <strong>Annual Plans:</strong> Save up to 23% with annual billing! Prime Annual: $129.90/yr
+                        (₹5,990/yr)
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ Section -->
+            <section id="faq" class="section">
+                <div class="section-header">
+                    <div class="section-icon">
+                        <i data-lucide="help-circle" class="icon"></i>
+                    </div>
+                    <div>
+                        <h2 class="section-title">Frequently Asked Questions</h2>
+                        <p class="section-subtitle">Common questions answered</p>
+                    </div>
+                </div>
+
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>
+                            <i data-lucide="mic" class="icon"></i>
+                            <span>How does the pronunciation analysis work?</span>
+                            <i data-lucide="chevron-down" class="icon chevron"></i>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>OtterSpeak uses your browser's speech recognition to capture your voice during reading
+                                sessions.
+                                Otter Brain then compares your pronunciation against the expected words and provides
+                                detailed feedback on accuracy and any mispronounced sounds.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>
+                            <i data-lucide="sun" class="icon"></i>
+                            <span>What happens if my Sun Energy runs out?</span>
+                            <i data-lucide="chevron-down" class="icon chevron"></i>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>When your Sun Energy is depleted, you won't be able to start new sessions until it
+                                resets. Energy resets daily at midnight (your local time). You can upgrade to Happy or
+                                Prime for more daily energy, or wait for the reset.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>
+                            <i data-lucide="snowflake" class="icon"></i>
+                            <span>How do streak freezes work?</span>
+                            <i data-lucide="chevron-down" class="icon chevron"></i>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>Streak Freezes automatically protect your streak when you miss a day. If you don't
+                                complete a session, a freeze is used (if available) to maintain your streak. Happy
+                                Otters get 3 freezes/month, Prime gets 10. You can also purchase more from the Freeze
+                                Store.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>
+                            <i data-lucide="mic-off" class="icon"></i>
+                            <span>Can I use OtterSpeak without a microphone?</span>
+                            <i data-lucide="chevron-down" class="icon chevron"></i>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>Yes, but with limited functionality. You can still use the reading modes for speed
+                                reading practice, but you won't receive pronunciation analysis or accuracy scores. A
+                                microphone is recommended for the full experience.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>
+                            <i data-lucide="globe" class="icon"></i>
+                            <span>What browsers are supported?</span>
+                            <i data-lucide="chevron-down" class="icon chevron"></i>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>OtterSpeak works best on Chromium-based browsers (Chrome, Edge, Brave) due to better
+                                speech recognition support. Firefox is supported but may have limited speech
+                                recognition.
+                                Safari has partial support.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>
+                            <i data-lucide="smartphone" class="icon"></i>
+                            <span>Is there a mobile app?</span>
+                            <i data-lucide="chevron-down" class="icon chevron"></i>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>OtterSpeak is currently a web-based Progressive Web App (PWA). You can add it to your
+                                home screen on mobile devices for an app-like experience. Native mobile apps are planned
+                                for the future.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>
+                            <i data-lucide="shield-check" class="icon"></i>
+                            <span>Is my data secure?</span>
+                            <i data-lucide="chevron-down" class="icon chevron"></i>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>Yes! User accounts and progress are stored securely. Session audio is processed in
+                                real-time
+                                and is not permanently stored. Your reading history retention depends on your plan tier
+                                (7 days for free, 30 for Happy, unlimited for Prime).</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>
+                            <i data-lucide="credit-card" class="icon"></i>
+                            <span>Can I cancel my subscription anytime?</span>
+                            <i data-lucide="chevron-down" class="icon chevron"></i>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>Yes! You can cancel your subscription at any time from Account Settings. You'll continue
+                                to have access to premium features until your current billing period ends. No questions
+                                asked, no hassle.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>
+                            <i data-lucide="alert-triangle" class="icon"></i>
+                            <span>What is Psycho Mode and is it safe?</span>
+                            <i data-lucide="chevron-down" class="icon chevron"></i>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>Psycho Mode is an extreme reading challenge with chaotic visual effects and sound. It
+                                includes flashing lights and rapid movements. <strong>It is NOT recommended for users
+                                    with photosensitivity, epilepsy, or motion sickness.</strong> You can disable it in
+                                Options → Accessibility → Photosensitivity Mode.</p>
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>
+                            <i data-lucide="message-circle" class="icon"></i>
+                            <span>How do I contact support?</span>
+                            <i data-lucide="chevron-down" class="icon chevron"></i>
+                        </summary>
+                        <div class="faq-answer">
+                            <p>You can reach us through the Discord community (all users), or via direct feedback
+                                channels (Happy/Prime subscribers). Prime users have access to priority support.</p>
+                        </div>
+                    </details>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="content-footer">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <span class="logo-icon">🦦</span>
+                        <span>OtterGuide</span>
+                    </div>
+                    <p>Documentation for OtterSpeak - AI-powered speech and reading practice</p>
+                    <div class="footer-links">
+                        <a href="https://otterspeak.com" target="_blank">OtterSpeak</a>
+                        <a href="https://otterspeak.com/privacy" target="_blank">Privacy</a>
+                        <a href="https://otterspeak.com/terms" target="_blank">Terms</a>
+                    </div>
+                    <p class="footer-copyright">© 2026 OtterSpeak. All rights reserved.</p>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <script type="module" src="/scripts/main.js"></script>
+</body>
+
+</html>
