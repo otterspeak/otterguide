@@ -4,15 +4,15 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Initialize Lucide Icons
   lucide.createIcons();
-  
+
   // Theme Management
   initTheme();
-  
+
   // Navigation
   initMobileNav();
   initSmoothScroll();
   initActiveSection();
-  
+
   // Interactive Elements
   initFAQ();
   initRSVPDemo();
@@ -25,19 +25,19 @@ document.addEventListener('DOMContentLoaded', () => {
 function initTheme() {
   const themeToggle = document.getElementById('themeToggle');
   const html = document.documentElement;
-  
+
   // Check for saved theme preference or default to 'dark'
   const savedTheme = localStorage.getItem('otterguide-theme') || 'dark';
   html.setAttribute('data-theme', savedTheme);
-  
+
   // Toggle theme on click
   themeToggle?.addEventListener('click', () => {
     const currentTheme = html.getAttribute('data-theme');
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    
+
     html.setAttribute('data-theme', newTheme);
     localStorage.setItem('otterguide-theme', newTheme);
-    
+
     // Re-render icons after theme change
     lucide.createIcons();
   });
@@ -53,28 +53,28 @@ function initMobileNav() {
   const mobileNav = document.getElementById('mobileNav');
   const mobileNavOverlay = document.getElementById('mobileNavOverlay');
   const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
-  
+
   function openMobileNav() {
     mobileNav?.classList.add('open');
     mobileNavOverlay?.classList.add('open');
     document.body.style.overflow = 'hidden';
   }
-  
+
   function closeMobileNav() {
     mobileNav?.classList.remove('open');
     mobileNavOverlay?.classList.remove('open');
     document.body.style.overflow = '';
   }
-  
+
   mobileMenuBtn?.addEventListener('click', openMobileNav);
   mobileCloseBtn?.addEventListener('click', closeMobileNav);
   mobileNavOverlay?.addEventListener('click', closeMobileNav);
-  
+
   // Close nav when clicking a link
   mobileNavLinks.forEach(link => {
     link.addEventListener('click', closeMobileNav);
   });
-  
+
   // Close on escape key
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && mobileNav?.classList.contains('open')) {
@@ -90,22 +90,22 @@ function initMobileNav() {
 function initSmoothScroll() {
   // Handle all anchor links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
+    anchor.addEventListener('click', function (e) {
       const href = this.getAttribute('href');
       if (href === '#') return;
-      
+
       const target = document.querySelector(href);
       if (target) {
         e.preventDefault();
-        
+
         const headerHeight = 64; // var(--header-height)
         const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerHeight - 32;
-        
+
         window.scrollTo({
           top: targetPosition,
           behavior: 'smooth'
         });
-        
+
         // Update URL without scrolling
         history.pushState(null, '', href);
       }
@@ -118,37 +118,64 @@ function initSmoothScroll() {
 // ============================================
 
 function initActiveSection() {
-  const sections = document.querySelectorAll('.section[id]');
-  const navLinks = document.querySelectorAll('.nav-link[data-section], .toc-link[data-section]');
-  
+  const sections = document.querySelectorAll('.section[id], .card[id]');
+  const navLinks = document.querySelectorAll('.nav-link[data-section], .toc-link[data-section], .toc-sublink');
+
   if (sections.length === 0) return;
-  
-  // Create intersection observer
+
+  // Track visible sections to handle nested/overlapping elements
+  const visibleSections = new Map();
+
   const observerOptions = {
     root: null,
     rootMargin: '-20% 0px -60% 0px',
     threshold: 0
   };
-  
+
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
+      const id = entry.target.getAttribute('id');
       if (entry.isIntersecting) {
-        const sectionId = entry.target.getAttribute('id');
-        
-        // Update all nav links
-        navLinks.forEach(link => {
-          const linkSection = link.getAttribute('data-section');
-          if (linkSection === sectionId) {
-            link.classList.add('active');
-          } else {
-            link.classList.remove('active');
-          }
-        });
+        visibleSections.set(id, entry.target);
+      } else {
+        visibleSections.delete(id);
       }
     });
+
+    // Find the best section to highlight
+    let bestId = null;
+
+    // Prioritize cards (sub-sections) over main sections
+    const candidates = Array.from(visibleSections.values());
+
+    const cardCandidate = candidates.find(el => el.classList.contains('card'));
+    const sectionCandidate = candidates.find(el => el.classList.contains('section'));
+
+    // Prefer card, then section, then fallback to first available
+    if (cardCandidate) {
+      bestId = cardCandidate.getAttribute('id');
+    } else if (sectionCandidate) {
+      bestId = sectionCandidate.getAttribute('id');
+    } else if (candidates.length > 0) {
+      bestId = candidates[0].getAttribute('id');
+    }
+
+    if (bestId) {
+      // Update all nav links
+      navLinks.forEach(link => {
+        const linkSection = link.getAttribute('data-section');
+        const linkHref = link.getAttribute('href')?.substring(1); // Remove #
+
+        if (linkSection === bestId || linkHref === bestId) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+    }
   }, observerOptions);
-  
-  // Observe all sections
+
+  // Observe all sections and cards
   sections.forEach(section => observer.observe(section));
 }
 
@@ -158,10 +185,10 @@ function initActiveSection() {
 
 function initFAQ() {
   const faqItems = document.querySelectorAll('.faq-item');
-  
+
   faqItems.forEach(item => {
     const summary = item.querySelector('summary');
-    
+
     summary?.addEventListener('click', (e) => {
       // Allow default toggle behavior
       // Optionally close other items for accordion effect:
@@ -251,7 +278,7 @@ document.addEventListener('keydown', (e) => {
     const searchInput = document.querySelector('.search-input');
     searchInput?.focus();
   }
-  
+
   // Press 't' to toggle theme
   if (e.key === 't' && !isInputFocused()) {
     const themeToggle = document.getElementById('themeToggle');
@@ -261,9 +288,9 @@ document.addEventListener('keydown', (e) => {
 
 function isInputFocused() {
   const activeElement = document.activeElement;
-  return activeElement?.tagName === 'INPUT' || 
-         activeElement?.tagName === 'TEXTAREA' ||
-         activeElement?.isContentEditable;
+  return activeElement?.tagName === 'INPUT' ||
+    activeElement?.tagName === 'TEXTAREA' ||
+    activeElement?.isContentEditable;
 }
 
 // ============================================
@@ -290,16 +317,16 @@ window.addEventListener('afterprint', () => {
 async function initRSVPDemo() {
   // Load word data from JSON files
   let allWords = [];
-  
+
   try {
     const [easyResponse, mediumResponse] = await Promise.all([
       fetch('/data/demo-easy.json'),
       fetch('/data/demo-medium.json')
     ]);
-    
+
     const easyData = await easyResponse.json();
     const mediumData = await mediumResponse.json();
-    
+
     // Extract all words from easy paragraphs first, then medium
     easyData.paragraphs.forEach(paragraph => {
       paragraph.words.forEach(wordObj => {
@@ -310,7 +337,7 @@ async function initRSVPDemo() {
         });
       });
     });
-    
+
     mediumData.paragraphs.forEach(paragraph => {
       paragraph.words.forEach(wordObj => {
         allWords.push({
@@ -320,7 +347,7 @@ async function initRSVPDemo() {
         });
       });
     });
-    
+
     console.log(`Loaded ${allWords.length} words for RSVP demo`);
   } catch (error) {
     console.warn('Could not load word data, using fallback:', error);
@@ -390,11 +417,11 @@ async function initRSVPDemo() {
   function updateDisplay() {
     const wpmText = `${currentWpm} WPM`;
     const timeText = formatTime(timeRemaining);
-    
+
     // Update mini mode stats bar
     currentWpmDisplay.textContent = wpmText;
     timerDisplay.textContent = timeText;
-    
+
     // Update expanded mode header
     if (headerWpm) headerWpm.textContent = wpmText;
     if (headerTimer) headerTimer.textContent = timeText;
@@ -415,7 +442,7 @@ async function initRSVPDemo() {
       const before = word.substring(0, focalIndex);
       const focal = word[focalIndex] || '';
       const after = word.substring(focalIndex + 1);
-      
+
       rsvpWord.innerHTML = `${before}<span class="focal-char">${focal}</span>${after}`;
       rsvpWord.classList.add('focus-mode');
     } else {
@@ -435,7 +462,7 @@ async function initRSVPDemo() {
     if (currentWordIndex >= allWords.length) {
       currentWordIndex = 0; // Loop back if somehow we exhaust all words
     }
-    
+
     const wordData = allWords[currentWordIndex];
     displayWord(wordData);
     currentWordIndex++;
@@ -448,14 +475,14 @@ async function initRSVPDemo() {
     const elapsed = sessionDuration - timeRemaining;
     const wpmIncrease = Math.floor(elapsed / 5) * 5;
     currentWpm = Math.min(startingWpm + wpmIncrease, 400); // Capped at 400 WPM
-    
+
     // Restart interval with new speed if playing
     if (isPlaying && !isPaused) {
       clearInterval(intervalId);
       const delay = getDelayFromWpm(currentWpm);
       intervalId = setInterval(playNextWord, delay);
     }
-    
+
     updateDisplay();
   }
 
@@ -466,7 +493,7 @@ async function initRSVPDemo() {
       increaseWpm();
       updateDisplay();
     }
-    
+
     if (timeRemaining <= 0) {
       complete();
     }
@@ -475,16 +502,16 @@ async function initRSVPDemo() {
   // Complete session - show "How many could you read?" with fade
   function complete() {
     stop();
-    
+
     // Add fade-out class
     rsvpWord.classList.add('fade-out');
     rsvpWord.classList.remove('focus-mode');
-    
+
     setTimeout(() => {
       rsvpWord.textContent = "How many could you read?";
       rsvpWord.classList.remove('fade-out');
       rsvpWord.classList.add('fade-in', 'completion-message');
-      
+
       // Remove fade-in class after animation
       setTimeout(() => {
         rsvpWord.classList.remove('fade-in');
@@ -495,27 +522,27 @@ async function initRSVPDemo() {
   // Start playback
   function play() {
     if (isPlaying && !isPaused) return;
-    
+
     if (timeRemaining <= 0) {
       reset();
     }
-    
+
     isPlaying = true;
     isPaused = false;
-    
+
     // Add playing class to hide stats bar in mini mode
     rsvpContainer.classList.add('rsvp-playing');
-    
+
     playBtn.disabled = true;
     pauseBtn.disabled = false;
-    
+
     // Play first word immediately
     playNextWord();
-    
+
     // Set interval for words
     const delay = getDelayFromWpm(currentWpm);
     intervalId = setInterval(playNextWord, delay);
-    
+
     // Start timer
     timerIntervalId = setInterval(timerTick, 1000);
   }
@@ -523,11 +550,11 @@ async function initRSVPDemo() {
   // Pause playback
   function pause() {
     if (!isPlaying || isPaused) return;
-    
+
     isPaused = true;
     clearInterval(intervalId);
     clearInterval(timerIntervalId);
-    
+
     playBtn.disabled = false;
     pauseBtn.disabled = true;
   }
@@ -538,10 +565,10 @@ async function initRSVPDemo() {
     isPaused = false;
     clearInterval(intervalId);
     clearInterval(timerIntervalId);
-    
+
     // Remove playing class to show stats bar again
     rsvpContainer.classList.remove('rsvp-playing');
-    
+
     playBtn.disabled = false;
     pauseBtn.disabled = true;
   }
@@ -565,22 +592,22 @@ async function initRSVPDemo() {
     isExpanded = !isExpanded;
     rsvpContainer.classList.toggle('rsvp-mini', !isExpanded);
     rsvpContainer.classList.toggle('rsvp-expanded', isExpanded);
-    
+
     // Hide actions bar when expanded
     if (rsvpActions) {
       rsvpActions.classList.toggle('hidden', isExpanded);
     }
-    
+
     // Show/hide expanded header (with branding, WPM, timer, exit)
     if (rsvpExpandedHeader) {
       rsvpExpandedHeader.classList.toggle('hidden', !isExpanded);
     }
-    
+
     if (isExpanded) {
       document.body.style.overflow = 'hidden';
       // Request landscape on mobile
       if (screen.orientation && screen.orientation.lock) {
-        screen.orientation.lock('landscape').catch(() => {});
+        screen.orientation.lock('landscape').catch(() => { });
       }
     } else {
       document.body.style.overflow = '';
@@ -589,7 +616,7 @@ async function initRSVPDemo() {
         screen.orientation.unlock();
       }
     }
-    
+
     lucide.createIcons();
   }
 
@@ -605,16 +632,16 @@ async function initRSVPDemo() {
       currentWpm = startingWpm;
     }
     wpmValue.textContent = startingWpm;
-    
+
     wpmPresets.forEach(preset => {
       const presetWpm = parseInt(preset.dataset.wpm);
       preset.classList.toggle('active', presetWpm === startingWpm);
     });
-    
+
     if (!isPlaying) {
       updateDisplay();
     }
-    
+
     lucide.createIcons();
   });
 
@@ -639,7 +666,7 @@ async function initRSVPDemo() {
     focusMode = !focusMode;
     focusToggle.classList.toggle('active', focusMode);
     focusToggle.querySelector('.toggle-status').textContent = focusMode ? 'ON' : 'OFF';
-    
+
     // Update current word display if playing
     if (isPlaying && currentWordIndex > 0) {
       const wordData = allWords[(currentWordIndex - 1) % allWords.length];
@@ -657,10 +684,10 @@ async function initRSVPDemo() {
   document.addEventListener('keydown', (e) => {
     const rsvpSection = document.getElementById('rsvp');
     if (!rsvpSection) return;
-    
+
     // Allow controls when expanded or when RSVP is in view
     if (!isExpanded && !isInViewport(rsvpSection)) return;
-    
+
     if (e.key === ' ' && !isInputFocused()) {
       e.preventDefault();
       if (isPlaying && !isPaused) {
@@ -669,15 +696,15 @@ async function initRSVPDemo() {
         play();
       }
     }
-    
+
     if (e.key === 'Escape' && isExpanded) {
       toggleExpand();
     }
-    
+
     if (e.key === 'r' && !isInputFocused()) {
       reset();
     }
-    
+
     if (e.key === 'f' && !isInputFocused()) {
       toggleExpand();
     }

@@ -23,7 +23,7 @@ Comprehensive documentation and guide website for [OtterSpeak](https://otterspea
    - Memory Mode (Memory training)
    - How2Speak Mode (Pronunciation)
 3. **Features** - Core functionality:
-   - Otter Brain AI
+   - OtterBrain AI
    - Energy System
    - Progression & XP
    - Rewards & Battlepass
