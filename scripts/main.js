@@ -337,9 +337,9 @@ async function initRSVPDemo() {
   const wpmSlider = document.getElementById('wpmSlider');
   const wpmValue = document.getElementById('wpmValue');
   const colorblindSelect = document.getElementById('colorblindSelect');
+  const viewModeSelect = document.getElementById('viewModeSelect');
   const focusToggle = document.getElementById('focusToggle');
   const rsvpWord = document.getElementById('rsvpWord');
-  const progressBar = document.getElementById('progressBar');
   const currentWpmDisplay = document.getElementById('currentWpm');
   const timerDisplay = document.getElementById('timerDisplay');
   const playBtn = document.getElementById('playBtn');
@@ -348,6 +348,13 @@ async function initRSVPDemo() {
   const expandBtn = document.getElementById('expandBtn');
   const exitBtn = document.getElementById('exitBtn');
   const rsvpContainer = document.getElementById('rsvpContainer');
+  const rsvpActions = document.getElementById('rsvpActions');
+  const rsvpStatsBar = document.getElementById('rsvpStatsBar');
+  const rsvpExpandedHeader = document.getElementById('rsvpExpandedHeader');
+  const headerWpm = document.getElementById('headerWpm');
+  const headerTimer = document.getElementById('headerTimer');
+  const crosshairOverlay = document.getElementById('crosshairOverlay');
+  const tunnelOverlay = document.getElementById('tunnelOverlay');
   const wpmPresets = document.querySelectorAll('.wpm-preset');
 
   // If elements don't exist, exit early
@@ -360,20 +367,12 @@ async function initRSVPDemo() {
   let isPlaying = false;
   let isPaused = false;
   let focusMode = true; // Default ON
+  let viewMode = 'crosshair'; // 'crosshair' or 'tunnel'
   let intervalId = null;
   let timerIntervalId = null;
   let sessionDuration = 30; // 30 seconds
   let timeRemaining = 30;
   let isExpanded = false;
-
-  // Colorblind filter values
-  const colorblindFilters = {
-    normal: 'none',
-    protanopia: 'url(#protanopia)',
-    deuteranopia: 'url(#deuteranopia)',
-    tritanopia: 'url(#tritanopia)',
-    achromatopsia: 'grayscale(100%)'
-  };
 
   // Calculate delay from WPM
   function getDelayFromWpm(wpm) {
@@ -387,15 +386,25 @@ async function initRSVPDemo() {
     return `${mins}:${secs.toString().padStart(2, '0')}`;
   }
 
-  // Update display
+  // Update display - both mini stats bar and expanded header
   function updateDisplay() {
-    currentWpmDisplay.innerHTML = `<i data-lucide="gauge" class="icon"></i> ${currentWpm} WPM`;
-    timerDisplay.textContent = formatTime(timeRemaining);
+    const wpmText = `${currentWpm} WPM`;
+    const timeText = formatTime(timeRemaining);
     
-    const progress = ((sessionDuration - timeRemaining) / sessionDuration) * 100;
-    progressBar.style.width = `${progress}%`;
+    // Update mini mode stats bar
+    currentWpmDisplay.textContent = wpmText;
+    timerDisplay.textContent = timeText;
     
-    lucide.createIcons();
+    // Update expanded mode header
+    if (headerWpm) headerWpm.textContent = wpmText;
+    if (headerTimer) headerTimer.textContent = timeText;
+  }
+
+  // Update view mode (crosshair/tunnel)
+  function updateViewMode(mode) {
+    viewMode = mode;
+    rsvpContainer.setAttribute('data-view', mode);
+    // CSS handles visibility via data-view attribute
   }
 
   // Display word with focal character highlighting from JSON data
@@ -433,12 +442,12 @@ async function initRSVPDemo() {
     updateDisplay();
   }
 
-  // Increase WPM over time
+  // Increase WPM over time - capped at 400 (Beta limit)
   function increaseWpm() {
     // Increase WPM by ~5 every 5 seconds
     const elapsed = sessionDuration - timeRemaining;
     const wpmIncrease = Math.floor(elapsed / 5) * 5;
-    currentWpm = Math.min(startingWpm + wpmIncrease, 500);
+    currentWpm = Math.min(startingWpm + wpmIncrease, 400); // Capped at 400 WPM
     
     // Restart interval with new speed if playing
     if (isPlaying && !isPaused) {
@@ -466,7 +475,6 @@ async function initRSVPDemo() {
   // Complete session - show "How many could you read?" with fade
   function complete() {
     stop();
-    progressBar.style.width = "100%";
     
     // Add fade-out class
     rsvpWord.classList.add('fade-out');
@@ -494,6 +502,9 @@ async function initRSVPDemo() {
     
     isPlaying = true;
     isPaused = false;
+    
+    // Add playing class to hide stats bar in mini mode
+    rsvpContainer.classList.add('rsvp-playing');
     
     playBtn.disabled = true;
     pauseBtn.disabled = false;
@@ -528,6 +539,9 @@ async function initRSVPDemo() {
     clearInterval(intervalId);
     clearInterval(timerIntervalId);
     
+    // Remove playing class to show stats bar again
+    rsvpContainer.classList.remove('rsvp-playing');
+    
     playBtn.disabled = false;
     pauseBtn.disabled = true;
   }
@@ -543,7 +557,6 @@ async function initRSVPDemo() {
     if (focusMode) {
       rsvpWord.classList.add('focus-mode');
     }
-    progressBar.style.width = "0%";
     updateDisplay();
   }
 
@@ -553,8 +566,15 @@ async function initRSVPDemo() {
     rsvpContainer.classList.toggle('rsvp-mini', !isExpanded);
     rsvpContainer.classList.toggle('rsvp-expanded', isExpanded);
     
-    expandBtn.classList.toggle('hidden', isExpanded);
-    exitBtn.classList.toggle('hidden', !isExpanded);
+    // Hide actions bar when expanded
+    if (rsvpActions) {
+      rsvpActions.classList.toggle('hidden', isExpanded);
+    }
+    
+    // Show/hide expanded header (with branding, WPM, timer, exit)
+    if (rsvpExpandedHeader) {
+      rsvpExpandedHeader.classList.toggle('hidden', !isExpanded);
+    }
     
     if (isExpanded) {
       document.body.style.overflow = 'hidden';
@@ -573,10 +593,9 @@ async function initRSVPDemo() {
     lucide.createIcons();
   }
 
-  // Apply colorblind filter
-  function applyColorblindFilter(mode) {
-    const filter = colorblindFilters[mode] || 'none';
-    rsvpContainer.style.filter = filter;
+  // Apply colorblind mode - updates focal color via data attribute
+  function applyColorblindMode(mode) {
+    rsvpContainer.setAttribute('data-colorblind', mode);
   }
 
   // Event Listeners
@@ -607,8 +626,13 @@ async function initRSVPDemo() {
     });
   });
 
+  // View mode selector (crosshair/tunnel)
+  viewModeSelect?.addEventListener('change', (e) => {
+    updateViewMode(e.target.value);
+  });
+
   colorblindSelect?.addEventListener('change', (e) => {
-    applyColorblindFilter(e.target.value);
+    applyColorblindMode(e.target.value);
   });
 
   focusToggle.addEventListener('click', () => {

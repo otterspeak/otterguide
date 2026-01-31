@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500;700&display=swap"
         rel="stylesheet">
 
     <!-- Lucide Icons CDN -->
@@ -59,7 +59,7 @@
         <div class="header-container">
             <a href="/" class="logo">
                 <span class="logo-icon">🦦</span>
-                <span class="logo-text">OtterGuide</span>
+                <span class="logo-text">otterguide</span>
             </a>
 
             <nav class="nav-desktop">
@@ -104,7 +104,7 @@
         <div class="mobile-nav-header">
             <span class="logo">
                 <span class="logo-icon">🦦</span>
-                <span class="logo-text">OtterGuide</span>
+                <span class="logo-text">otterguide</span>
             </span>
             <button class="mobile-close-btn" id="mobileCloseBtn">
                 <i data-lucide="x" class="icon"></i>
@@ -159,7 +159,7 @@
                 Complete Documentation
             </div>
             <h1 class="hero-title">
-                Welcome to <span class="gradient-text">OtterGuide</span>
+                Welcome to <span class="gradient-text">otterguide</span>
             </h1>
             <p class="hero-description">
                 Your comprehensive guide to mastering OtterSpeak - the AI-powered speech and reading practice platform
@@ -170,7 +170,7 @@
                     <i data-lucide="rocket" class="icon"></i>
                     Get Started
                 </a>
-                <a href="#rsvp" class="btn btn-secondary">
+                <a href="#rsvp-demo" class="btn btn-secondary">
                     <i data-lucide="play" class="icon"></i>
                     Try RSVP Demo
                 </a>
@@ -249,7 +249,7 @@
                         </a>
                         <a href="#plans" class="toc-link" data-section="plans">
                             <i data-lucide="crown" class="icon"></i>
-                            <span>Plans & Pricing</span>
+                            <span>Plans</span>
                         </a>
                         <a href="#faq" class="toc-link" data-section="faq">
                             <i data-lucide="help-circle" class="icon"></i>
@@ -447,7 +447,7 @@
                 </div>
 
                 <!-- Interactive RSVP Demo -->
-                <div class="card rsvp-demo-card">
+                <div id="rsvp-demo" class="card rsvp-demo-card">
                     <h3 class="card-title">
                         <i data-lucide="play-circle" class="icon title-icon"></i>
                         Try RSVP Reading - Interactive Demo
@@ -479,6 +479,17 @@
 
                         <div class="control-group">
                             <label>
+                                <i data-lucide="layout-template" class="icon"></i>
+                                View Mode
+                            </label>
+                            <select id="viewModeSelect">
+                                <option value="crosshair">Crosshair</option>
+                                <option value="tunnel">Tunnel</option>
+                            </select>
+                        </div>
+
+                        <div class="control-group">
+                            <label>
                                 <i data-lucide="eye" class="icon"></i>
                                 Color Vision
                             </label>
@@ -500,46 +511,71 @@
                         </div>
                     </div>
 
-                    <!-- RSVP Display (Minimal Preview) -->
-                    <div class="rsvp-container rsvp-mini" id="rsvpContainer">
-                        <div class="rsvp-display" id="rsvpDisplay">
-                            <div class="rsvp-word-wrapper">
-                                <span class="rsvp-word" id="rsvpWord">Ready</span>
+                    <!-- RSVP Display (Matching OtterSpeak Style) -->
+                    <div class="rsvp-container rsvp-mini" id="rsvpContainer" data-view="crosshair">
+                        <!-- Expanded mode header - only visible when expanded -->
+                        <div class="rsvp-expanded-header hidden" id="rsvpExpandedHeader">
+                            <div class="rsvp-header-left">
+                                <span class="rsvp-branding">otterspeak</span>
                             </div>
-                            <div class="rsvp-timer" id="rsvpTimer">
-                                <i data-lucide="clock" class="icon"></i>
-                                <span id="timerDisplay">0:30</span>
+                            <div class="rsvp-header-center">
+                                <span class="rsvp-header-wpm" id="headerWpm">150 WPM</span>
                             </div>
-                            <div class="rsvp-progress">
-                                <div class="progress-bar" id="progressBar"></div>
-                            </div>
-                            <div class="rsvp-stats">
-                                <span id="currentWpm"><i data-lucide="gauge" class="icon"></i> 150 WPM</span>
+                            <div class="rsvp-header-right">
+                                <span class="rsvp-header-timer" id="headerTimer">0:30</span>
+                                <button class="rsvp-exit-btn" id="exitBtn">
+                                    <i data-lucide="x" class="icon"></i>
+                                    <span>Exit</span>
+                                </button>
                             </div>
                         </div>
 
-                        <div class="rsvp-actions">
-                            <button class="rsvp-btn play" id="playBtn">
-                                <i data-lucide="play" class="icon"></i>
-                                <span>Play</span>
-                            </button>
-                            <button class="rsvp-btn pause" id="pauseBtn" disabled>
-                                <i data-lucide="pause" class="icon"></i>
-                                <span>Pause</span>
-                            </button>
-                            <button class="rsvp-btn reset" id="resetBtn">
-                                <i data-lucide="rotate-ccw" class="icon"></i>
-                                <span>Reset</span>
-                            </button>
-                            <button class="rsvp-btn expand" id="expandBtn">
-                                <i data-lucide="maximize-2" class="icon"></i>
-                                <span>Expand</span>
-                            </button>
-                            <button class="rsvp-btn exit hidden" id="exitBtn">
-                                <i data-lucide="minimize-2" class="icon"></i>
-                                <span>Exit</span>
-                            </button>
+                        <!-- Crosshair overlay -->
+                        <div class="crosshair-overlay" id="crosshairOverlay">
+                            <div class="crosshair-line crosshair-top"></div>
+                            <div class="crosshair-line crosshair-bottom"></div>
+                            <div class="crosshair-line crosshair-left"></div>
+                            <div class="crosshair-line crosshair-right"></div>
                         </div>
+                        <!-- Tunnel overlay -->
+                        <div class="tunnel-overlay" id="tunnelOverlay">
+                            <div class="tunnel-bar tunnel-top"></div>
+                            <div class="tunnel-bar tunnel-bottom"></div>
+                        </div>
+
+                        <!-- RSVP Display Area -->
+                        <div class="rsvp-display" id="rsvpDisplay">
+                            <!-- Word - absolutely centered -->
+                            <div class="rsvp-word-wrapper">
+                                <span class="rsvp-word" id="rsvpWord">Ready</span>
+                            </div>
+                        </div>
+
+                        <!-- Stats bar - mini mode only, hidden when playing -->
+                        <div class="rsvp-stats-bar" id="rsvpStatsBar">
+                            <span class="rsvp-stat-pill" id="timerDisplay">0:30</span>
+                            <span class="rsvp-stat-pill rsvp-wpm" id="currentWpm">150 WPM</span>
+                        </div>
+                    </div>
+
+                    <!-- Actions OUTSIDE the preview container -->
+                    <div class="rsvp-actions" id="rsvpActions">
+                        <button class="rsvp-btn play" id="playBtn">
+                            <i data-lucide="play" class="icon"></i>
+                            <span>Play</span>
+                        </button>
+                        <button class="rsvp-btn pause" id="pauseBtn" disabled>
+                            <i data-lucide="pause" class="icon"></i>
+                            <span>Pause</span>
+                        </button>
+                        <button class="rsvp-btn reset" id="resetBtn">
+                            <i data-lucide="rotate-ccw" class="icon"></i>
+                            <span>Reset</span>
+                        </button>
+                        <button class="rsvp-btn expand" id="expandBtn">
+                            <i data-lucide="maximize-2" class="icon"></i>
+                            <span>Expand</span>
+                        </button>
                     </div>
 
                     <div class="info-box info">
@@ -562,7 +598,7 @@
 
                     <div class="wpm-guide">
                         <div class="wpm-tier beginner">
-                            <div class="wpm-range">100-200 WPM</div>
+                            <div class="wpm-range">100-150 WPM</div>
                             <div class="wpm-label">
                                 <i data-lucide="turtle" class="icon"></i>
                                 Beginner
@@ -570,7 +606,7 @@
                             <p>Comfortable pace for learning. Focus on pronunciation and comprehension.</p>
                         </div>
                         <div class="wpm-tier intermediate">
-                            <div class="wpm-range">200-350 WPM</div>
+                            <div class="wpm-range">150-250 WPM</div>
                             <div class="wpm-label">
                                 <i data-lucide="rabbit" class="icon"></i>
                                 Intermediate
@@ -578,20 +614,12 @@
                             <p>Average adult reading speed. Good balance of speed and understanding.</p>
                         </div>
                         <div class="wpm-tier advanced">
-                            <div class="wpm-range">350-500 WPM</div>
+                            <div class="wpm-range">250-400 WPM</div>
                             <div class="wpm-label">
                                 <i data-lucide="rocket" class="icon"></i>
                                 Advanced
                             </div>
-                            <p>Speed reader territory. Requires practice to maintain comprehension.</p>
-                        </div>
-                        <div class="wpm-tier expert">
-                            <div class="wpm-range">500+ WPM</div>
-                            <div class="wpm-label">
-                                <i data-lucide="flame" class="icon"></i>
-                                Expert
-                            </div>
-                            <p>Elite level. Only achievable with dedicated RSVP training.</p>
+                            <p>Speed reader territory. Max available in OtterSpeak Beta.</p>
                         </div>
                     </div>
                 </div>
@@ -966,29 +994,124 @@
                     </div>
                 </div>
 
-                <!-- Otter Brain AI -->
-                <div id="feature-otterbrain" class="card">
+                <!-- Otter Brain AI - Detailed Architecture -->
+                <div id="feature-otterbrain" class="card otterbrain-card">
                     <div class="feature-header">
                         <div class="feature-icon-large purple">
                             <i data-lucide="cpu" class="icon"></i>
                         </div>
                         <div>
-                            <h3 class="card-title">
-                                <i data-lucide="sparkles" class="icon title-icon"></i>
-                                Otter Brain
+                            <div class="otterbrain-badge">
+                                <span class="badge-dot"></span>
+                                <span>Architecture V1</span>
+                            </div>
+                            <h3 class="card-title otterbrain-title">
+                                The Acoustic Intelligence Behind OtterSpeak
                             </h3>
-                            <p class="feature-tagline">
-                                <i data-lucide="brain" class="icon"></i>
-                                AI-Powered Pronunciation Analysis
-                            </p>
                         </div>
                     </div>
-                    <p class="card-text">
-                        Otter Brain is OtterSpeak's intelligent assistant that listens to your reading sessions and
-                        provides detailed feedback on your pronunciation. It analyzes each word you speak and helps
-                        you identify areas for improvement.
+
+                    <p class="card-text otterbrain-intro">
+                        Otter Brain is the specialized, high-performance Artificial Intelligence engine developed
+                        exclusively to power OtterSpeak.
                     </p>
 
+                    <p class="card-text">
+                        While most speech tools simply convert voice to text, Otter Brain was engineered with a more
+                        complex goal: to act as a
+                        <strong>real-time language coach</strong>. It doesn't just listen to what you say; it analyzes
+                        <em>how</em> you say it, assessing fluency, pronunciation accuracy, and pacing in milliseconds.
+                    </p>
+
+                    <!-- Why We Built It -->
+                    <h4 class="subsection-title">
+                        <i data-lucide="rocket" class="icon"></i>
+                        Why We Built It
+                    </h4>
+                    <p class="card-text">
+                        Standard speech recognition APIs (like Google or Siri) are designed to be "forgiving"—they
+                        auto-correct your mistakes to guess your intent. This is great for ordering pizza, but terrible
+                        for learning a language.
+                    </p>
+                    <div class="quote-box">
+                        <p>We needed a system that was strict, precise, and honest.</p>
+                    </div>
+                    <p class="card-text">
+                        Developed internally for the OtterSpeak ecosystem, Otter Brain serves as an unbiased judge. It
+                        uses deep acoustic modeling to compare a learner's speech against native-level phonetics,
+                        identifying exactly where a student stumbles, pauses too long, or mispronounces a sound.
+                    </p>
+
+                    <!-- How It Works -->
+                    <h4 class="subsection-title">
+                        <i data-lucide="brain" class="icon"></i>
+                        How It Works
+                    </h4>
+                    <div class="otterbrain-steps">
+                        <div class="otterbrain-step">
+                            <div class="step-marker">1</div>
+                            <div class="step-content">
+                                <h5>The Ear (Acoustic Decoding)</h5>
+                                <p>Using advanced deep learning architectures (based on Wav2Vec 2.0 technology), the
+                                    model breaks down audio waves into raw phonetic probability vectors, capturing the
+                                    tiniest nuances of sound 16,000 times per second.</p>
+                            </div>
+                        </div>
+                        <div class="otterbrain-step">
+                            <div class="step-marker">2</div>
+                            <div class="step-content">
+                                <h5>The Aligning Engine (Forced Alignment)</h5>
+                                <p>Instead of just transcribing, Otter Brain performs "Forced Alignment." It takes the
+                                    reference text (what the user should have said) and mathematically maps it onto the
+                                    user's audio. This allows us to pinpoint the exact millisecond a specific word
+                                    started and ended.</p>
+                            </div>
+                        </div>
+                        <div class="otterbrain-step">
+                            <div class="step-marker">3</div>
+                            <div class="step-content">
+                                <h5>The Judge (Scoring Logic)</h5>
+                                <p>This is our custom proprietary logic. The Brain calculates a "Confidence Score" for
+                                    every single word. It applies dynamic penalties for:</p>
+                                <ul class="penalty-list">
+                                    <li><strong>Latency:</strong> Taking too long to say a word.</li>
+                                    <li><strong>Stuttering:</strong> Repeating sounds.</li>
+                                    <li><strong>Mispronunciation:</strong> Substituting phonemes (e.g., saying "wabbit"
+                                        instead of "rabbit").</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Key Capabilities -->
+                    <h4 class="subsection-title">
+                        <i data-lucide="sparkles" class="icon"></i>
+                        Key Capabilities
+                    </h4>
+                    <div class="capabilities-grid">
+                        <div class="capability-card">
+                            <h5>Phonetic Precision</h5>
+                            <p>Understands speech at the phoneme level, allowing granular feedback beyond simple "right
+                                or wrong."</p>
+                        </div>
+                        <div class="capability-card">
+                            <h5>Fluency Tracking</h5>
+                            <p>Enforces a "Grace Period." Pausing too long drops your score, simulating real-world
+                                conversation pressure.</p>
+                        </div>
+                        <div class="capability-card">
+                            <h5>Universal Audio</h5>
+                            <p>Industrial-grade processor ingests and normalizes audio from any device, studio mic or
+                                smartphone.</p>
+                        </div>
+                        <div class="capability-card">
+                            <h5>Zero-Hallucination</h5>
+                            <p>Constrained alignment prevents "making up" words. Feedback is always grounded in the
+                                actual audio.</p>
+                        </div>
+                    </div>
+
+                    <!-- Status Indicators -->
                     <h4 class="subsection-title">
                         <i data-lucide="activity" class="icon"></i>
                         Status Indicators
@@ -1027,33 +1150,15 @@
                         </div>
                     </div>
 
-                    <h4 class="subsection-title">
-                        <i data-lucide="check-circle" class="icon"></i>
-                        What Otter Brain Does
-                    </h4>
-                    <div class="feature-capabilities">
-                        <ul>
-                            <li><i data-lucide="mic" class="icon"></i> Listens to your voice during reading sessions
-                            </li>
-                            <li><i data-lucide="check" class="icon"></i> Compares your pronunciation against expected
-                                words</li>
-                            <li><i data-lucide="percent" class="icon"></i> Calculates word-by-word accuracy scores</li>
-                            <li><i data-lucide="text" class="icon"></i> Identifies mispronounced phonemes (Happy+ users)
-                            </li>
-                            <li><i data-lucide="message-square" class="icon"></i> Provides session summary and
-                                improvement tips</li>
-                            <li><i data-lucide="zap" class="icon"></i> Priority processing for Happy & Prime subscribers
-                            </li>
-                        </ul>
-                    </div>
-
                     <div class="info-box info">
-                        <i data-lucide="info" class="icon"></i>
+                        <i data-lucide="lock" class="icon"></i>
                         <div>
-                            <strong>Note:</strong> Otter Brain requires microphone access to analyze your pronunciation.
-                            Your audio is processed in real-time and is not stored permanently.
+                            <strong>Built for OtterSpeak:</strong> Not a generic public API. A bespoke solution hosted
+                            on our infrastructure, tuned specifically for our curriculum.
                         </div>
                     </div>
+
+                    <p class="otterbrain-footer">Otter Brain © 2026. All Rights Reserved.</p>
                 </div>
 
                 <!-- Energy System -->
@@ -1368,12 +1473,32 @@
                         <i data-lucide="crown" class="icon"></i>
                     </div>
                     <div>
-                        <h2 class="section-title">Plans & Pricing</h2>
+                        <h2 class="section-title">Plans</h2>
                         <p class="section-subtitle">Choose your otter tier</p>
                     </div>
                 </div>
 
-                <div class="plans-grid">
+                <div class="plans-grid plans-grid-4">
+                    <!-- Guest Mode -->
+                    <div class="plan-card guest">
+                        <div class="plan-header">
+                            <div class="plan-icon">
+                                <i data-lucide="user" class="icon"></i>
+                            </div>
+                            <h3 class="plan-name">Guest</h3>
+                            <div class="plan-price">No Account</div>
+                            <p class="plan-desc">Try before signing up</p>
+                        </div>
+                        <ul class="plan-features">
+                            <li><i data-lucide="check" class="icon"></i> 3 tries total</li>
+                            <li><i data-lucide="check" class="icon"></i> Blink & Click modes only</li>
+                            <li><i data-lucide="x" class="icon no"></i> No OtterBrain</li>
+                            <li><i data-lucide="x" class="icon no"></i> No session history</li>
+                            <li><i data-lucide="x" class="icon no"></i> No progress tracking</li>
+                            <li><i data-lucide="x" class="icon no"></i> No streaks</li>
+                        </ul>
+                    </div>
+
                     <!-- NPC Otter -->
                     <div class="plan-card npc">
                         <div class="plan-header">
@@ -1386,9 +1511,9 @@
                         </div>
                         <ul class="plan-features">
                             <li><i data-lucide="check" class="icon"></i> 20 Sun Energy daily</li>
-                            <li><i data-lucide="check" class="icon"></i> Blink & Click modes</li>
-                            <li><i data-lucide="check" class="icon"></i> Basic Otter Brain</li>
-                            <li><i data-lucide="check" class="icon"></i> 7-day session history</li>
+                            <li><i data-lucide="check" class="icon"></i> All reading modes</li>
+                            <li><i data-lucide="check" class="icon"></i> OtterBrain v1</li>
+                            <li><i data-lucide="check" class="icon"></i> Last 5 sessions history</li>
                             <li><i data-lucide="check" class="icon"></i> 5 avatar options</li>
                             <li><i data-lucide="x" class="icon no"></i> No streak freezes</li>
                             <li><i data-lucide="x" class="icon no"></i> Standard ads</li>
@@ -1403,15 +1528,13 @@
                                 <i data-lucide="rocket" class="icon"></i>
                             </div>
                             <h3 class="plan-name">Happy Otter</h3>
-                            <div class="plan-price">$4.99<span>/mo</span></div>
-                            <p class="plan-subprice">or ₹199/mo</p>
                             <p class="plan-desc">Serious about improvement</p>
                         </div>
                         <ul class="plan-features">
                             <li><i data-lucide="check" class="icon"></i> 100 Sun Energy daily</li>
                             <li><i data-lucide="check" class="icon"></i> All reading modes</li>
-                            <li><i data-lucide="check" class="icon"></i> Priority Otter Brain</li>
-                            <li><i data-lucide="check" class="icon"></i> 30-day session history</li>
+                            <li><i data-lucide="check" class="icon"></i> OtterBrain v1</li>
+                            <li><i data-lucide="check" class="icon"></i> Last 30 sessions history</li>
                             <li><i data-lucide="check" class="icon"></i> Full avatar library</li>
                             <li><i data-lucide="check" class="icon"></i> 3 streak freezes/month</li>
                             <li><i data-lucide="check" class="icon"></i> Profile badges</li>
@@ -1428,14 +1551,12 @@
                                 <i data-lucide="crown" class="icon"></i>
                             </div>
                             <h3 class="plan-name">Prime Otter</h3>
-                            <div class="plan-price">$12.99<span>/mo</span></div>
-                            <p class="plan-subprice">or ₹999/mo</p>
                             <p class="plan-desc">The ultimate experience</p>
                         </div>
                         <ul class="plan-features">
                             <li><i data-lucide="check" class="icon"></i> 500 Sun Energy daily</li>
                             <li><i data-lucide="check" class="icon"></i> All modes + Psycho</li>
-                            <li><i data-lucide="check" class="icon"></i> Priority + AI texts</li>
+                            <li><i data-lucide="check" class="icon"></i> OtterBrain v1 + AI texts</li>
                             <li><i data-lucide="check" class="icon"></i> Unlimited history</li>
                             <li><i data-lucide="check" class="icon"></i> Exclusive avatars</li>
                             <li><i data-lucide="check" class="icon"></i> 10 streak freezes/month</li>
@@ -1445,14 +1566,6 @@
                             <li><i data-lucide="check" class="icon"></i> Direct dev feedback</li>
                             <li><i data-lucide="check" class="icon"></i> Early access features</li>
                         </ul>
-                    </div>
-                </div>
-
-                <div class="info-box info">
-                    <i data-lucide="info" class="icon"></i>
-                    <div>
-                        <strong>Annual Plans:</strong> Save up to 23% with annual billing! Prime Annual: $129.90/yr
-                        (₹5,990/yr)
                     </div>
                 </div>
             </section>
@@ -1561,7 +1674,7 @@
                             <p>Yes! User accounts and progress are stored securely. Session audio is processed in
                                 real-time
                                 and is not permanently stored. Your reading history retention depends on your plan tier
-                                (7 days for free, 30 for Happy, unlimited for Prime).</p>
+                                (last 5 sessions for NPC, last 30 for Happy, unlimited for Prime).</p>
                         </div>
                     </details>
 
@@ -1611,7 +1724,7 @@
                 <div class="footer-content">
                     <div class="footer-brand">
                         <span class="logo-icon">🦦</span>
-                        <span>OtterGuide</span>
+                        <span>otterguide</span>
                     </div>
                     <p>Documentation for OtterSpeak - AI-powered speech and reading practice</p>
                     <div class="footer-links">
